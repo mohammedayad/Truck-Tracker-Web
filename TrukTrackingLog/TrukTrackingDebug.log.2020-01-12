@@ -1,0 +1,150 @@
+12 Jan 2020 22:34:35,743 INFO  App            
+Starting App on lp-lv-mayad with PID 9892 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+12 Jan 2020 22:34:35,867 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+12 Jan 2020 22:34:35,868 INFO  App            
+No active profile set, falling back to default profiles: default
+
+12 Jan 2020 22:35:11,908 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+12 Jan 2020 22:35:12,583 INFO  App            
+Started App in 37.446 seconds (JVM running for 41.19)
+
+12 Jan 2020 22:40:14,548 INFO  App            
+Starting App on lp-lv-mayad with PID 1832 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+12 Jan 2020 22:40:14,549 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+12 Jan 2020 22:40:14,549 INFO  App            
+No active profile set, falling back to default profiles: default
+
+12 Jan 2020 22:40:19,997 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+12 Jan 2020 22:40:20,473 INFO  App            
+Started App in 6.292 seconds (JVM running for 7.101)
+
+12 Jan 2020 22:43:03,114 INFO  App            
+Starting App on lp-lv-mayad with PID 9628 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+12 Jan 2020 22:43:03,115 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+12 Jan 2020 22:43:03,115 INFO  App            
+No active profile set, falling back to default profiles: default
+
+12 Jan 2020 22:43:37,306 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+12 Jan 2020 22:43:37,970 INFO  App            
+Started App in 35.314 seconds (JVM running for 36.3)
+
+12 Jan 2020 22:45:46,498 INFO  App            
+Starting App on lp-lv-mayad with PID 9804 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+12 Jan 2020 22:45:46,498 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+12 Jan 2020 22:45:46,499 INFO  App            
+No active profile set, falling back to default profiles: default
+
+12 Jan 2020 22:46:19,600 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+12 Jan 2020 22:46:20,094 INFO  App            
+Started App in 33.996 seconds (JVM running for 34.989)
+
+12 Jan 2020 22:48:40,469 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 1234
+
+12 Jan 2020 22:48:40,469 DEBUG LoginController
+[DEBUG]securityService not null
+
+12 Jan 2020 22:48:40,469 DEBUG LoginController
+[DEBUG]javax.faces.ViewState 7633718603112675613:-6660279143315367977 hashsum 
+
+12 Jan 2020 22:48:40,469 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+12 Jan 2020 22:48:40,470 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+12 Jan 2020 22:48:40,559 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+12 Jan 2020 22:48:40,560 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum e193d07799fb1f8d4f7a9d598ca0f07130071f36a755eb13fd5f3c23eb0e1ba5
+
+12 Jan 2020 22:48:40,560 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue 200b194ac290322e535702ae1723e5eb2a2ac917710c47ed16411715c241e11d
+
+12 Jan 2020 22:48:40,560 DEBUG SecurityServiceImpl
+[DEBUG]password not matched successfully
+
+12 Jan 2020 22:48:40,561 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS LOGIN_FAILED
+
+12 Jan 2020 22:48:40,562 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+12 Jan 2020 22:48:40,562 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+12 Jan 2020 22:48:40,563 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+12 Jan 2020 23:14:57,425 INFO  App            
+Starting App on lp-lv-mayad with PID 9688 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+12 Jan 2020 23:14:57,425 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+12 Jan 2020 23:14:57,425 INFO  App            
+No active profile set, falling back to default profiles: default
+
+12 Jan 2020 23:15:28,447 INFO  App            
+Starting App on lp-lv-mayad with PID 10892 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+12 Jan 2020 23:15:28,447 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+12 Jan 2020 23:15:28,447 INFO  App            
+No active profile set, falling back to default profiles: default
+
+12 Jan 2020 23:19:54,399 INFO  App            
+Starting App on lp-lv-mayad with PID 3236 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+12 Jan 2020 23:19:54,400 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+12 Jan 2020 23:19:54,401 INFO  App            
+No active profile set, falling back to default profiles: default
+
+12 Jan 2020 23:32:54,439 INFO  App            
+Starting App on lp-lv-mayad with PID 10496 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+12 Jan 2020 23:32:54,439 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+12 Jan 2020 23:32:54,440 INFO  App            
+No active profile set, falling back to default profiles: default
+
+12 Jan 2020 23:33:26,866 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+12 Jan 2020 23:33:27,338 INFO  App            
+Started App in 33.229 seconds (JVM running for 34.062)
+
+12 Jan 2020 23:37:37,833 INFO  App            
+Starting App on lp-lv-mayad with PID 10876 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+12 Jan 2020 23:37:37,833 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+12 Jan 2020 23:37:37,833 INFO  App            
+No active profile set, falling back to default profiles: default
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:pt="http://xmlns.jcp.org/jsf/passthrough" >
+
+    <h:head>
+        <meta http-equiv="X-UA-Compatible" content="IE=10,11" />
+        <title>ITLOSUNG Login</title>
+        <h:outputStylesheet library="css" name="bootstrap.min.css" />
+        <h:outputScript library="js" name="jquery-3.4.1.min.js"
+                        target="head" />
+        <!-- <h:outputScript library="primefaces" name="jquery/jquery.js"
+                        target="head" />
+        <h:outputScript library="primefaces" name="jquery/jquery-plugins.js"
+                        target="head" /> -->
+        <h:outputScript library="js" name="hashing.js" />
+        <h:outputScript library="js" name="sha256.js" />
+        <h:outputStylesheet library="css" name="custom.css"></h:outputStylesheet>
+    </h:head>
+    <h:body id="login">
+
+        <div id="login-wrapper" class="login-page">
+
+
+            <div id="login-content" class="div_PageBody">
+                <h:form id="login-form" class="login-frm" onsubmit="hashsha256();" >
+                    <div id="login-top" class="login-banner clearfix">
+                        <h:graphicImage library="images" name="#{applicationScope['ADMIN_LOGO_URL']}"/>
+                        <div class="v-separator"></div>
+                        <h:graphicImage library="images" name="logo.jpeg"/>
+                    </div>
+                    <div class="login-frm-left">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h1>Login</h1>
+                                    <div>
+                                        <label style="white-space: nowrap;"><h:outputText value="User Name" /></label>
+                                        <h:inputText value="#{loginBean.username}" id="username" class="text-input" onkeypress="$('#messages').html('')" autocomplete="off"/>
+                                    </div>
+                                    <div>
+                                        <label style="white-space: nowrap;"><h:outputText value="Password" /></label>
+                                        <h:inputSecret value="#{loginBean.password}" id="password" class="text-input"  onkeypress="$('#messages').html('')" autocomplete="off"/>
+                                    </div>
+                                    <div class="btn-bar">
+                                        <h:inputHidden id="hashsum" value="#{loginBean.hashsum}" />
+                                        <h:commandButton class="button" id="button" value="Login" action="#{loginBean.doLogin()}" />
+                                    </div>
+                                    <div id="messages">
+                                        <h5><h:messages  styleClass="error"></h:messages></h5>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h:graphicImage library="images" name="grow.jpg" style="width:100%"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </h:form>
+            </div>
+        </div>
+    </h:body>
+</html>

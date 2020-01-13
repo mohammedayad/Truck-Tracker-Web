@@ -1,0 +1,309 @@
+10 Jan 2020 16:18:32,545 INFO  App            
+Starting App on lp-lv-mayad with PID 5752 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+10 Jan 2020 16:18:32,586 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+10 Jan 2020 16:18:32,587 INFO  App            
+No active profile set, falling back to default profiles: default
+
+10 Jan 2020 16:19:24,174 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+10 Jan 2020 16:19:24,714 INFO  App            
+Started App in 52.935 seconds (JVM running for 55.258)
+
+10 Jan 2020 16:23:21,384 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 1234
+
+10 Jan 2020 16:23:24,367 DEBUG LoginController
+[DEBUG]securityService not null
+
+10 Jan 2020 16:23:26,170 DEBUG LoginController
+[DEBUG]javax.faces.ViewState 8110719339629268356:4051676229103355062 hashsum 
+
+10 Jan 2020 16:23:29,585 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+10 Jan 2020 16:23:31,278 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+10 Jan 2020 16:23:36,330 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+10 Jan 2020 16:23:41,632 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum e193d07799fb1f8d4f7a9d598ca0f07130071f36a755eb13fd5f3c23eb0e1ba5
+
+10 Jan 2020 16:23:43,965 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue c36d516431862f4304abe76dff288ac0e93c8faf5082a2590082d9eb1c108371
+
+10 Jan 2020 16:25:12,895 DEBUG SecurityServiceImpl
+[DEBUG]password not matched successfully
+
+10 Jan 2020 16:25:12,896 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS LOGIN_FAILED
+
+10 Jan 2020 16:25:12,896 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+10 Jan 2020 16:25:12,896 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+10 Jan 2020 16:25:12,897 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+10 Jan 2020 16:28:54,360 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 1234
+
+10 Jan 2020 16:28:57,263 DEBUG LoginController
+[DEBUG]securityService not null
+
+10 Jan 2020 16:28:58,012 DEBUG LoginController
+[DEBUG]javax.faces.ViewState 8110719339629268356:-1747934765277032197 hashsum 
+
+10 Jan 2020 16:29:00,563 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+10 Jan 2020 16:29:02,113 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+10 Jan 2020 16:29:08,946 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+10 Jan 2020 16:32:06,966 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum e193d07799fb1f8d4f7a9d598ca0f07130071f36a755eb13fd5f3c23eb0e1ba5
+
+10 Jan 2020 16:32:53,510 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue 659392a2d8bf0529ab0fb3b1ad4bd979318400df0dafc50a547c37267ea6de87
+
+10 Jan 2020 16:42:33,764 DEBUG SecurityServiceImpl
+[DEBUG]password not matched successfully
+
+10 Jan 2020 16:42:33,764 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS LOGIN_FAILED
+
+10 Jan 2020 16:42:33,764 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+10 Jan 2020 16:42:33,764 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+10 Jan 2020 16:42:33,765 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+10 Jan 2020 16:42:52,548 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 1234
+
+10 Jan 2020 16:42:59,374 DEBUG LoginController
+[DEBUG]securityService not null
+
+10 Jan 2020 16:43:16,473 DEBUG LoginController
+[DEBUG]javax.faces.ViewState 8110719339629268356:-6111535973660909652 hashsum 
+
+10 Jan 2020 16:44:18,695 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+10 Jan 2020 16:44:20,528 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+10 Jan 2020 16:44:23,377 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+10 Jan 2020 16:44:41,098 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum e193d07799fb1f8d4f7a9d598ca0f07130071f36a755eb13fd5f3c23eb0e1ba5
+
+10 Jan 2020 16:45:16,349 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue 9e8d68b4f5a7f7cc060f07d95cea53b7db6c5a2d8287b430844572b8b1db3586
+
+10 Jan 2020 16:59:29,713 INFO  App            
+Starting App on lp-lv-mayad with PID 8944 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+10 Jan 2020 16:59:29,713 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+10 Jan 2020 16:59:29,714 INFO  App            
+No active profile set, falling back to default profiles: default
+
+10 Jan 2020 17:00:15,629 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+10 Jan 2020 17:00:16,348 INFO  App            
+Started App in 47.126 seconds (JVM running for 48.164)
+
+10 Jan 2020 17:03:51,903 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 1234
+
+10 Jan 2020 17:03:51,904 DEBUG LoginController
+[DEBUG]securityService not null
+
+10 Jan 2020 17:03:51,904 DEBUG LoginController
+[DEBUG]javax.faces.ViewState 2871837098448436322:-4790534813039607199 hashsum 
+
+10 Jan 2020 17:03:51,904 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+10 Jan 2020 17:03:51,907 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+10 Jan 2020 17:03:52,002 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+10 Jan 2020 17:03:52,003 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum e193d07799fb1f8d4f7a9d598ca0f07130071f36a755eb13fd5f3c23eb0e1ba5
+
+10 Jan 2020 17:03:52,003 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue cd8700208fa8ebf8378679e2866782631c5e1fa95c4c3a033640c31098b53a8d
+
+10 Jan 2020 17:03:52,003 DEBUG SecurityServiceImpl
+[DEBUG]password not matched successfully
+
+10 Jan 2020 17:03:52,003 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS LOGIN_FAILED
+
+10 Jan 2020 17:03:52,004 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+10 Jan 2020 17:03:52,004 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+10 Jan 2020 17:03:52,004 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+10 Jan 2020 18:28:32,261 DEBUG LoginController
+[DEBUG]doLogin user name weblogic password weblogic
+
+10 Jan 2020 18:28:32,261 DEBUG LoginController
+[DEBUG]securityService not null
+
+10 Jan 2020 18:28:32,261 DEBUG LoginController
+[DEBUG]javax.faces.ViewState 8652893469446186566:-7197143169826329226 hashsum 
+
+10 Jan 2020 18:28:32,261 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin weblogic
+
+10 Jan 2020 18:28:32,261 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername weblogic
+
+10 Jan 2020 18:28:32,263 DEBUG SecurityServiceImpl
+[DEBUG]user not found with this user name weblogic
+
+10 Jan 2020 18:28:32,263 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+10 Jan 2020 18:28:32,263 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+10 Jan 2020 18:28:32,263 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+10 Jan 2020 18:40:54,711 INFO  App            
+Starting App on lp-lv-mayad with PID 10616 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+10 Jan 2020 18:40:54,712 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+10 Jan 2020 18:40:54,712 INFO  App            
+No active profile set, falling back to default profiles: default
+
+10 Jan 2020 18:41:44,072 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+10 Jan 2020 18:41:44,997 INFO  App            
+Started App in 50.647 seconds (JVM running for 51.704)
+
+10 Jan 2020 18:42:43,437 DEBUG LoginController
+[DEBUG]doLogin user name weblogic password weblogic
+
+10 Jan 2020 18:42:43,437 DEBUG LoginController
+[DEBUG]securityService not null
+
+10 Jan 2020 18:42:43,437 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -2217124300040112356:8719530148971336478 hashsum 
+
+10 Jan 2020 18:42:43,437 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin weblogic
+
+10 Jan 2020 18:42:43,438 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername weblogic
+
+10 Jan 2020 18:42:43,496 DEBUG SecurityServiceImpl
+[DEBUG]user not found with this user name weblogic
+
+10 Jan 2020 18:42:43,497 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+10 Jan 2020 18:42:43,497 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+10 Jan 2020 18:42:43,497 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+10 Jan 2020 18:42:53,770 DEBUG LoginController
+[DEBUG]doLogin user name weblogic password weblogic
+
+10 Jan 2020 18:42:53,770 DEBUG LoginController
+[DEBUG]securityService not null
+
+10 Jan 2020 18:42:53,770 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -901982533076345954:3618137508638771463 hashsum 
+
+10 Jan 2020 18:42:53,770 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin weblogic
+
+10 Jan 2020 18:42:53,770 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername weblogic
+
+10 Jan 2020 18:42:53,771 DEBUG SecurityServiceImpl
+[DEBUG]user not found with this user name weblogic
+
+10 Jan 2020 18:42:53,771 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+10 Jan 2020 18:42:53,771 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+10 Jan 2020 18:42:53,771 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+10 Jan 2020 18:44:02,411 INFO  App            
+Starting App on lp-lv-mayad with PID 7048 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+10 Jan 2020 18:44:02,434 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+10 Jan 2020 18:44:02,434 INFO  App            
+No active profile set, falling back to default profiles: default
+
+10 Jan 2020 18:44:34,715 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+10 Jan 2020 18:44:35,203 INFO  App            
+Started App in 33.124 seconds (JVM running for 33.92)
+
+10 Jan 2020 18:45:00,442 DEBUG LoginController
+[DEBUG]doLogin user name weblogic password weblogic
+
+10 Jan 2020 18:45:00,443 DEBUG LoginController
+[DEBUG]securityService not null
+
+10 Jan 2020 18:45:00,443 DEBUG LoginController
+[DEBUG]javax.faces.ViewState 111693707320953615:-1811907228588974619 hashsum 
+
+10 Jan 2020 18:45:00,443 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin weblogic
+
+10 Jan 2020 18:45:00,443 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername weblogic
+
+10 Jan 2020 18:45:00,468 DEBUG SecurityServiceImpl
+[DEBUG]user not found with this user name weblogic
+
+10 Jan 2020 18:45:00,468 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+10 Jan 2020 18:45:00,468 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+10 Jan 2020 18:45:00,469 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+

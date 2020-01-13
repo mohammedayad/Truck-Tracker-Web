@@ -1,0 +1,120 @@
+07 Jan 2020 21:26:57,587 INFO  App            
+Starting App on lp-lv-mayad with PID 5900 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+07 Jan 2020 21:26:57,588 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+07 Jan 2020 21:26:57,588 INFO  App            
+No active profile set, falling back to default profiles: default
+
+07 Jan 2020 21:27:30,966 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+07 Jan 2020 21:27:31,473 INFO  App            
+Started App in 34.329 seconds (JVM running for 35.301)
+
+07 Jan 2020 21:29:17,343 DEBUG LoginController
+[DEBUG]doLogin user name weblogic password weblogic
+
+07 Jan 2020 21:30:00,478 DEBUG LoginController
+[DEBUG]securityService not null
+
+07 Jan 2020 21:30:02,447 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -7856862335988599376:-2301401662471270334 hashsum 
+
+07 Jan 2020 21:30:07,393 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin weblogic
+
+07 Jan 2020 21:30:08,135 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername weblogic
+
+07 Jan 2020 21:30:24,373 DEBUG SecurityServiceImpl
+[DEBUG]user not found with this user name weblogic
+
+07 Jan 2020 21:30:27,383 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+07 Jan 2020 21:30:28,225 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+07 Jan 2020 21:30:30,466 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+07 Jan 2020 21:34:04,240 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 1234
+
+07 Jan 2020 21:34:06,068 DEBUG LoginController
+[DEBUG]securityService not null
+
+07 Jan 2020 21:34:07,111 DEBUG LoginController
+[DEBUG]javax.faces.ViewState 8185190562045220468:-1907186864291555545 hashsum 
+
+07 Jan 2020 21:34:11,612 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+07 Jan 2020 21:34:13,271 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+07 Jan 2020 21:34:22,921 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+07 Jan 2020 21:34:31,128 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum e193d07799fb1f8d4f7a9d598ca0f07130071f36a755eb13fd5f3c23eb0e1ba5
+
+07 Jan 2020 21:34:37,727 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue f924d8f9f70812462b25560df1c6ab0fe063024f0c2b09ecebbb19d8b4b38cd2
+
+07 Jan 2020 21:34:59,816 DEBUG SecurityServiceImpl
+[DEBUG]password not matched successfully
+
+07 Jan 2020 21:35:01,584 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS LOGIN_FAILED
+
+07 Jan 2020 21:35:05,446 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+07 Jan 2020 21:35:07,839 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+07 Jan 2020 21:35:08,305 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+07 Jan 2020 21:35:33,834 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 123
+
+07 Jan 2020 21:35:34,690 DEBUG LoginController
+[DEBUG]securityService not null
+
+07 Jan 2020 21:35:35,140 DEBUG LoginController
+[DEBUG]javax.faces.ViewState 8185190562045220468:19418998638443130 hashsum 
+
+07 Jan 2020 21:35:36,797 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+07 Jan 2020 21:35:39,526 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+07 Jan 2020 21:35:42,140 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+07 Jan 2020 21:35:44,665 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum 6d8d21ede8e2dd0bcc54d37f9f2e8f9428ea99dd1006aa2ffc0f62e8ae80c9c3
+
+07 Jan 2020 21:35:49,601 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue b73095e1dc1b2eb9e97ca1a9944a225a7e3ef03ec0c7452ed81824f218776715
+
+07 Jan 2020 21:35:51,880 DEBUG SecurityServiceImpl
+[DEBUG]password not matched successfully
+
+07 Jan 2020 21:36:20,842 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS LOGIN_FAILED
+
+07 Jan 2020 21:36:20,842 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+07 Jan 2020 21:36:20,842 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+07 Jan 2020 21:36:20,842 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
