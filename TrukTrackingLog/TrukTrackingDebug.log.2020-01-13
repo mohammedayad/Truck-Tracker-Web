@@ -1,0 +1,1038 @@
+13 Jan 2020 00:14:54,935 INFO  App            
+Starting App on lp-lv-mayad with PID 9956 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+13 Jan 2020 00:14:54,935 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+13 Jan 2020 00:14:54,935 INFO  App            
+No active profile set, falling back to default profiles: default
+
+13 Jan 2020 00:32:44,862 INFO  App            
+Starting App on lp-lv-mayad with PID 10024 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+13 Jan 2020 00:32:44,862 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+13 Jan 2020 00:32:44,862 INFO  App            
+No active profile set, falling back to default profiles: default
+
+13 Jan 2020 00:33:16,755 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+13 Jan 2020 00:33:17,208 INFO  App            
+Started App in 32.679 seconds (JVM running for 33.489)
+
+13 Jan 2020 16:11:47,714 INFO  App            
+Starting App on lp-lv-mayad with PID 5756 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+13 Jan 2020 16:11:47,730 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+13 Jan 2020 16:11:47,730 INFO  App            
+No active profile set, falling back to default profiles: default
+
+13 Jan 2020 16:12:21,911 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+13 Jan 2020 16:12:22,682 INFO  App            
+Started App in 35.309 seconds (JVM running for 36.863)
+
+13 Jan 2020 16:25:56,911 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 7cba62eeb768be6def1d34d6ca14711b3f73ba6e5e93e021456958671f404448
+
+13 Jan 2020 16:25:56,912 DEBUG LoginController
+[DEBUG]securityService not null
+
+13 Jan 2020 16:25:56,912 DEBUG LoginController
+[DEBUG]javax.faces.ViewState 8841966822123980927:-6556086075112685903 hashsum ef8c2095482236e4e1e71100deae731977236f9f0c6c08aa63f82e771fef8686
+
+13 Jan 2020 16:25:56,912 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+13 Jan 2020 16:25:56,912 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+13 Jan 2020 16:25:56,959 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+13 Jan 2020 16:25:56,960 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum ef8c2095482236e4e1e71100deae731977236f9f0c6c08aa63f82e771fef8686
+
+13 Jan 2020 16:25:56,960 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue 7cba62eeb768be6def1d34d6ca14711b3f73ba6e5e93e021456958671f404448
+
+13 Jan 2020 16:25:56,960 DEBUG SecurityServiceImpl
+[DEBUG]password matched successfully
+
+13 Jan 2020 16:25:56,961 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS SUCCESS_LOGIN
+
+13 Jan 2020 16:25:56,961 DEBUG LoginController
+[DEBUG]SUCCESS_LOGIN ayad
+
+13 Jan 2020 16:25:56,961 DEBUG LoginController
+[DEBUG]signInUser ayad
+
+13 Jan 2020 16:25:56,961 DEBUG TruckTrackingUtils
+[DEBUG]registerAuthenticatedUserInSession ayad
+
+13 Jan 2020 16:25:56,961 DEBUG TruckTrackingUtils
+[DEBUG]getSessionForLogin
+
+13 Jan 2020 16:25:56,961 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+13 Jan 2020 16:25:56,961 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+13 Jan 2020 16:25:56,961 DEBUG TruckTrackingUtils
+[DEBUG]start save user data into session
+
+13 Jan 2020 16:25:56,961 DEBUG TruckTrackingUtils
+[DEBUG]loggedIn true userId ayad lastLoginTime Mon Jan 13 16:25:56 GMT+02:00 2020 user truckTracker.User[ id=1 ]
+
+13 Jan 2020 16:25:56,961 DEBUG TruckTrackingUtils
+[DEBUG]addLoginCookie in response org.apache.catalina.connector.ResponseFacade@3043fce3
+
+13 Jan 2020 16:25:56,962 DEBUG TruckTrackingUtils
+[DEBUG]Cookie nameLID uuID value 480c056a-f710-440c-94ee-b0a8e100feba
+
+13 Jan 2020 16:25:56,962 DEBUG TruckTrackingUtils
+[DEBUG]added cookie to response
+
+13 Jan 2020 16:25:56,962 DEBUG LoginController
+[DEBUG]ayad signed in session successfully
+
+13 Jan 2020 16:25:56,962 DEBUG LoginController
+[DEBUG]send ayad to home /homepage.xhtml
+
+13 Jan 2020 16:28:55,541 INFO  App            
+Starting App on lp-lv-mayad with PID 10236 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+13 Jan 2020 16:28:55,542 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+13 Jan 2020 16:28:55,542 INFO  App            
+No active profile set, falling back to default profiles: default
+
+13 Jan 2020 16:29:29,692 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+13 Jan 2020 16:29:30,291 INFO  App            
+Started App in 35.199 seconds (JVM running for 36.508)
+
+13 Jan 2020 16:30:30,079 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 74fb7ee72b92ac5938745e6abe351fe141885445b5323a94b050777697543b85
+
+13 Jan 2020 16:30:36,355 DEBUG LoginController
+[DEBUG]securityService not null
+
+13 Jan 2020 16:30:37,335 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -8795857254047527183:-7237817875966085386 hashsum c0d0eff93ee184b245a9bc1f2a7eda736ffc26d5143b67286e53627ab8bac963
+
+13 Jan 2020 16:30:49,167 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+13 Jan 2020 16:30:51,009 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+13 Jan 2020 16:30:56,474 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+13 Jan 2020 16:31:06,724 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum c0d0eff93ee184b245a9bc1f2a7eda736ffc26d5143b67286e53627ab8bac963
+
+13 Jan 2020 16:31:10,269 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue 74fb7ee72b92ac5938745e6abe351fe141885445b5323a94b050777697543b85
+
+13 Jan 2020 16:31:23,802 DEBUG SecurityServiceImpl
+[DEBUG]password matched successfully
+
+13 Jan 2020 16:31:25,139 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS SUCCESS_LOGIN
+
+13 Jan 2020 16:31:31,301 DEBUG LoginController
+[DEBUG]SUCCESS_LOGIN ayad
+
+13 Jan 2020 16:31:37,234 DEBUG LoginController
+[DEBUG]signInUser ayad
+
+13 Jan 2020 16:31:37,236 DEBUG TruckTrackingUtils
+[DEBUG]registerAuthenticatedUserInSession ayad
+
+13 Jan 2020 16:31:37,237 DEBUG TruckTrackingUtils
+[DEBUG]getSessionForLogin
+
+13 Jan 2020 16:31:37,238 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+13 Jan 2020 16:31:37,240 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+13 Jan 2020 16:31:37,241 DEBUG TruckTrackingUtils
+[DEBUG]start save user data into session
+
+13 Jan 2020 16:31:37,245 DEBUG TruckTrackingUtils
+[DEBUG]loggedIn true userId ayad lastLoginTime Mon Jan 13 16:31:37 GMT+02:00 2020 user truckTracker.User[ id=1 ]
+
+13 Jan 2020 16:31:37,246 DEBUG TruckTrackingUtils
+[DEBUG]addLoginCookie in response org.apache.catalina.connector.ResponseFacade@1a87dbf2
+
+13 Jan 2020 16:31:37,249 DEBUG TruckTrackingUtils
+[DEBUG]Cookie nameLID uuID value 0348a5f5-89d8-4982-a863-f95f904d1003
+
+13 Jan 2020 16:31:37,250 DEBUG TruckTrackingUtils
+[DEBUG]added cookie to response
+
+13 Jan 2020 16:31:56,809 DEBUG LoginController
+[DEBUG]ayad signed in session successfully
+
+13 Jan 2020 16:31:58,754 DEBUG LoginController
+[DEBUG]send ayad to home /homepage.xhtml
+
+13 Jan 2020 22:30:53,023 INFO  App            
+Starting App on lp-lv-mayad with PID 11032 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+13 Jan 2020 22:30:53,023 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+13 Jan 2020 22:30:53,024 INFO  App            
+No active profile set, falling back to default profiles: default
+
+13 Jan 2020 22:34:07,030 INFO  App            
+Starting App on lp-lv-mayad with PID 11576 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+13 Jan 2020 22:34:07,031 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+13 Jan 2020 22:34:07,031 INFO  App            
+No active profile set, falling back to default profiles: default
+
+13 Jan 2020 22:46:01,346 INFO  App            
+Starting App on lp-lv-mayad with PID 11832 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+13 Jan 2020 22:46:01,346 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+13 Jan 2020 22:46:01,347 INFO  App            
+No active profile set, falling back to default profiles: default
+
+13 Jan 2020 22:54:56,984 INFO  App            
+Starting App on lp-lv-mayad with PID 9596 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+13 Jan 2020 22:54:56,985 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+13 Jan 2020 22:54:56,985 INFO  App            
+No active profile set, falling back to default profiles: default
+
+13 Jan 2020 22:56:46,675 INFO  App            
+Starting App on lp-lv-mayad with PID 6792 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+13 Jan 2020 22:56:46,679 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+13 Jan 2020 22:56:46,680 INFO  App            
+No active profile set, falling back to default profiles: default
+
+13 Jan 2020 23:01:22,658 INFO  App            
+Starting App on lp-lv-mayad with PID 9240 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+13 Jan 2020 23:01:22,658 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+13 Jan 2020 23:01:22,659 INFO  App            
+No active profile set, falling back to default profiles: default
+
+13 Jan 2020 23:03:16,918 INFO  App            
+Starting App on lp-lv-mayad with PID 10772 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+13 Jan 2020 23:03:16,919 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+13 Jan 2020 23:03:16,919 INFO  App            
+No active profile set, falling back to default profiles: default
+
+13 Jan 2020 23:03:49,693 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+13 Jan 2020 23:03:49,763 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+13 Jan 2020 23:03:50,320 INFO  App            
+Started App in 33.799 seconds (JVM running for 34.633)
+
+13 Jan 2020 23:04:13,071 DEBUG LoginController
+[DEBUG]doLogin user name ayad password a4b77df45a57c2626015886d1a0054ef4c714001dcb8cc9f7c7b995a52d1f075
+
+13 Jan 2020 23:04:13,072 DEBUG LoginController
+[DEBUG]securityService not null
+
+13 Jan 2020 23:04:13,072 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -8908568889761366084:-3776691076861709337 hashsum f708e849e92218d39f2e6e2215c6f9550c7c79604a8f8e4643e6b44d3a319b8d
+
+13 Jan 2020 23:04:13,072 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+13 Jan 2020 23:04:13,072 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+13 Jan 2020 23:04:13,099 DEBUG SecurityServiceImpl
+[DEBUG]user not found with this user name ayad
+
+13 Jan 2020 23:04:13,099 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+13 Jan 2020 23:04:13,099 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+13 Jan 2020 23:04:13,100 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+13 Jan 2020 23:04:24,425 DEBUG LoginController
+[DEBUG]doLogin user name ayad password fe0d817f18361a152a0a12fc5c9933bef248d56aee1e0d3ca8ee865d046cd9e2
+
+13 Jan 2020 23:04:24,425 DEBUG LoginController
+[DEBUG]securityService not null
+
+13 Jan 2020 23:04:24,425 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -8908568889761366084:7605429686008552526 hashsum be186d67ba1e85240dfe700e4d8c07a871413c164f8267cff7016174a0d5d94e
+
+13 Jan 2020 23:04:24,425 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+13 Jan 2020 23:04:24,425 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+13 Jan 2020 23:04:24,426 DEBUG SecurityServiceImpl
+[DEBUG]user not found with this user name ayad
+
+13 Jan 2020 23:04:24,426 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+13 Jan 2020 23:04:24,426 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+13 Jan 2020 23:04:24,426 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+13 Jan 2020 23:04:29,753 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 92225e587527e571d7f22b5461c380a6a81ea3696c32a240111746857ddcded3
+
+13 Jan 2020 23:04:29,753 DEBUG LoginController
+[DEBUG]securityService not null
+
+13 Jan 2020 23:04:29,753 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -8908568889761366084:-610508178671541876 hashsum cd470251509d4b50e109c300f4811ce34fe917c39469d4a7bc1b456d2a117a3d
+
+13 Jan 2020 23:04:29,753 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+13 Jan 2020 23:04:29,753 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+13 Jan 2020 23:04:29,754 DEBUG SecurityServiceImpl
+[DEBUG]user not found with this user name ayad
+
+13 Jan 2020 23:04:29,754 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+13 Jan 2020 23:04:29,754 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+13 Jan 2020 23:04:29,754 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+13 Jan 2020 23:05:16,005 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 9efd69dcfce97b8f78455378478e8a9832c8dfdae7844fbc4819bf31282b3e52
+
+13 Jan 2020 23:05:16,006 DEBUG LoginController
+[DEBUG]securityService not null
+
+13 Jan 2020 23:05:16,006 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -8908568889761366084:-4877229075566899304 hashsum 44cfa6d0a3297a788f429aab281c28d22e8c1e8cbe402ecb6206f08724e20c52
+
+13 Jan 2020 23:05:16,006 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+13 Jan 2020 23:05:16,006 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+13 Jan 2020 23:05:16,006 DEBUG SecurityServiceImpl
+[DEBUG]user not found with this user name ayad
+
+13 Jan 2020 23:05:16,006 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+13 Jan 2020 23:05:16,006 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+13 Jan 2020 23:05:16,006 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+13 Jan 2020 23:05:39,868 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 67bf394603c6a2331ef3dc1f220343856b724a18b8da3d1b001558301c6bcf62
+
+13 Jan 2020 23:05:39,868 DEBUG LoginController
+[DEBUG]securityService not null
+
+13 Jan 2020 23:05:39,868 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -8908568889761366084:1295790036752927022 hashsum a8e728737f880a78765a433b852bc093eaf18fe85650226853f35336ecea0435
+
+13 Jan 2020 23:05:39,868 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+13 Jan 2020 23:05:39,868 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+13 Jan 2020 23:05:39,869 DEBUG SecurityServiceImpl
+[DEBUG]user not found with this user name ayad
+
+13 Jan 2020 23:05:39,869 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+13 Jan 2020 23:05:39,869 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+13 Jan 2020 23:05:39,869 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+13 Jan 2020 23:07:56,775 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 3c4d2605a85fac7454775e7b029a6f00517593386192593455cdee54b1c5b988
+
+13 Jan 2020 23:07:56,775 DEBUG LoginController
+[DEBUG]securityService not null
+
+13 Jan 2020 23:07:56,775 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -8908568889761366084:743007333268981585 hashsum 300e2ea42aa97957ce71756e265696b77a2ad45e86553c28e372d106e769eae3
+
+13 Jan 2020 23:07:56,775 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+13 Jan 2020 23:07:56,775 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+13 Jan 2020 23:07:56,802 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+13 Jan 2020 23:07:56,803 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum 300e2ea42aa97957ce71756e265696b77a2ad45e86553c28e372d106e769eae3
+
+13 Jan 2020 23:07:56,803 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue 69cc71d2ebd36cb9164b3f674676ab87f38ba2e30263a5a93b401d3cfe3534da
+
+13 Jan 2020 23:07:56,803 DEBUG SecurityServiceImpl
+[DEBUG]password not matched successfully
+
+13 Jan 2020 23:07:56,803 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS LOGIN_FAILED
+
+13 Jan 2020 23:07:56,803 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+13 Jan 2020 23:07:56,803 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+13 Jan 2020 23:07:56,803 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+13 Jan 2020 23:08:37,282 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 58972fbe63fc2205bf1cdbc019112e0556580edfd4e83c573600d28610c133c1
+
+13 Jan 2020 23:08:37,282 DEBUG LoginController
+[DEBUG]securityService not null
+
+13 Jan 2020 23:08:37,282 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -8908568889761366084:2701298789565771282 hashsum 107c6c5fd7bddcaf077872ce6193b18453b127a2c23f047170e24cdf6846c74b
+
+13 Jan 2020 23:08:37,282 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+13 Jan 2020 23:08:37,282 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+13 Jan 2020 23:08:37,286 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+13 Jan 2020 23:08:37,287 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum 107c6c5fd7bddcaf077872ce6193b18453b127a2c23f047170e24cdf6846c74b
+
+13 Jan 2020 23:08:37,287 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue a6d0dbac13560c4e9629e85080f2c72f8b07d9c864b1619c3cd553d7dde9b544
+
+13 Jan 2020 23:08:37,287 DEBUG SecurityServiceImpl
+[DEBUG]password not matched successfully
+
+13 Jan 2020 23:08:37,287 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS LOGIN_FAILED
+
+13 Jan 2020 23:08:37,287 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+13 Jan 2020 23:08:37,287 DEBUG LoginController
+[DEBUG]Login error! Incorrect username or password.
+
+13 Jan 2020 23:08:37,287 DEBUG LoginController
+[DEBUG]send user to/login.xhtml an error happened
+
+13 Jan 2020 23:10:30,602 DEBUG LoginController
+[DEBUG]doLogin user name ayad password a739db17d39be3d4eb22d74c9bacf7a6c8322a308037043c2c64c060852db4a6
+
+13 Jan 2020 23:10:30,603 DEBUG LoginController
+[DEBUG]securityService not null
+
+13 Jan 2020 23:10:30,603 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -8908568889761366084:3487615184341622419 hashsum fd1d94420e828c3c026935c1fa443ac8418fb411433643e5bd6911b9a6c7bd07
+
+13 Jan 2020 23:10:30,603 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+13 Jan 2020 23:10:30,603 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+13 Jan 2020 23:10:30,604 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+13 Jan 2020 23:10:30,605 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum fd1d94420e828c3c026935c1fa443ac8418fb411433643e5bd6911b9a6c7bd07
+
+13 Jan 2020 23:10:30,605 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue a739db17d39be3d4eb22d74c9bacf7a6c8322a308037043c2c64c060852db4a6
+
+13 Jan 2020 23:10:30,605 DEBUG SecurityServiceImpl
+[DEBUG]password matched successfully
+
+13 Jan 2020 23:10:30,605 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS SUCCESS_LOGIN
+
+13 Jan 2020 23:10:30,605 DEBUG LoginController
+[DEBUG]SUCCESS_LOGIN ayad
+
+13 Jan 2020 23:10:30,605 DEBUG LoginController
+[DEBUG]signInUser ayad
+
+13 Jan 2020 23:10:30,605 DEBUG TruckTrackingUtils
+[DEBUG]registerAuthenticatedUserInSession ayad
+
+13 Jan 2020 23:10:30,605 DEBUG TruckTrackingUtils
+[DEBUG]getSessionForLogin
+
+13 Jan 2020 23:10:30,605 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+13 Jan 2020 23:10:30,605 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+13 Jan 2020 23:10:30,605 DEBUG TruckTrackingUtils
+[DEBUG]start save user data into session
+
+13 Jan 2020 23:10:30,605 DEBUG TruckTrackingUtils
+[DEBUG]loggedIn true userId ayad lastLoginTime Mon Jan 13 23:10:30 GMT+02:00 2020 user truckTracker.User[ id=1 ]
+
+13 Jan 2020 23:10:30,605 DEBUG TruckTrackingUtils
+[DEBUG]addLoginCookie in response org.apache.catalina.connector.ResponseFacade@65f7e90d
+
+13 Jan 2020 23:10:30,605 DEBUG TruckTrackingUtils
+[DEBUG]Cookie nameLID uuID value ee794387-03a2-4c27-82ba-40f9dcee84b1
+
+13 Jan 2020 23:10:30,605 DEBUG TruckTrackingUtils
+[DEBUG]added cookie to response
+
+13 Jan 2020 23:10:30,606 DEBUG LoginController
+[DEBUG]ayad signed in session successfully
+
+13 Jan 2020 23:10:30,606 DEBUG LoginController
+[DEBUG]send ayad to home /homepage.xhtml
+
+13 Jan 2020 23:16:58,959 INFO  App            
+Starting App on lp-lv-mayad with PID 9396 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+13 Jan 2020 23:16:58,961 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+13 Jan 2020 23:16:58,962 INFO  App            
+No active profile set, falling back to default profiles: default
+
+13 Jan 2020 23:17:37,997 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+13 Jan 2020 23:17:38,063 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+13 Jan 2020 23:17:38,593 INFO  App            
+Started App in 40.019 seconds (JVM running for 40.854)
+
+13 Jan 2020 23:17:54,372 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 3091d0b4b0e29250f8ecc9ccb1834e1cc8c93b26c8e01a33d0a6079a326b2900
+
+13 Jan 2020 23:17:54,372 DEBUG LoginController
+[DEBUG]securityService not null
+
+13 Jan 2020 23:17:54,372 DEBUG LoginController
+[DEBUG]javax.faces.ViewState 6803387386402031744:3561932817174083703 hashsum 60583fe22d7ef8837daf69cfcb753685ce5483993cf592d7a14301ff73d757b1
+
+13 Jan 2020 23:17:54,372 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+13 Jan 2020 23:17:54,373 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+13 Jan 2020 23:17:54,454 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+13 Jan 2020 23:17:54,455 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum 60583fe22d7ef8837daf69cfcb753685ce5483993cf592d7a14301ff73d757b1
+
+13 Jan 2020 23:17:54,456 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue 3091d0b4b0e29250f8ecc9ccb1834e1cc8c93b26c8e01a33d0a6079a326b2900
+
+13 Jan 2020 23:17:54,456 DEBUG SecurityServiceImpl
+[DEBUG]password matched successfully
+
+13 Jan 2020 23:17:54,456 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS SUCCESS_LOGIN
+
+13 Jan 2020 23:17:54,456 DEBUG LoginController
+[DEBUG]SUCCESS_LOGIN ayad
+
+13 Jan 2020 23:17:54,456 DEBUG LoginController
+[DEBUG]signInUser ayad
+
+13 Jan 2020 23:17:54,456 DEBUG TruckTrackingUtils
+[DEBUG]registerAuthenticatedUserInSession ayad
+
+13 Jan 2020 23:17:54,456 DEBUG TruckTrackingUtils
+[DEBUG]getSessionForLogin
+
+13 Jan 2020 23:17:54,456 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+13 Jan 2020 23:17:54,456 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+13 Jan 2020 23:17:54,456 DEBUG TruckTrackingUtils
+[DEBUG]start save user data into session
+
+13 Jan 2020 23:17:54,457 DEBUG TruckTrackingUtils
+[DEBUG]loggedIn true userId ayad lastLoginTime Mon Jan 13 23:17:54 GMT+02:00 2020 user truckTracker.User[ id=1 ]
+
+13 Jan 2020 23:17:54,457 DEBUG TruckTrackingUtils
+[DEBUG]addLoginCookie in response org.apache.catalina.connector.ResponseFacade@499be75
+
+13 Jan 2020 23:17:54,457 DEBUG TruckTrackingUtils
+[DEBUG]Cookie nameLID uuID value 0306998a-57d8-4dd4-9530-eb9de85554a7
+
+13 Jan 2020 23:17:54,457 DEBUG TruckTrackingUtils
+[DEBUG]added cookie to response
+
+13 Jan 2020 23:17:54,457 DEBUG LoginController
+[DEBUG]ayad signed in session successfully
+
+13 Jan 2020 23:17:54,458 DEBUG LoginController
+[DEBUG]send ayad to home /homepage.xhtml
+
+13 Jan 2020 23:17:54,512 DEBUG MenuController 
+[DEBUG]initializeMenu has been called
+
+13 Jan 2020 23:17:54,512 DEBUG MenuController 
+[DEBUG]truckTracker.User[ id=1 ]
+
+13 Jan 2020 23:17:54,512 DEBUG MenuServiceImpl
+[DEBUG]getUserRootMenus
+
+13 Jan 2020 23:17:54,513 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+13 Jan 2020 23:17:54,545 DEBUG MenuServiceImpl
+[DEBUG][]
+
+13 Jan 2020 23:17:54,545 DEBUG MenuServiceImpl
+[DEBUG]All Menus []
+
+13 Jan 2020 23:17:54,545 DEBUG MenuServiceImpl
+[DEBUG]Root Menus []
+
+13 Jan 2020 23:17:54,545 DEBUG MenuController 
+[DEBUG]rootElements []
+
+13 Jan 2020 23:17:54,545 DEBUG MenuController 
+[DEBUG]rootElements []
+
+13 Jan 2020 23:17:54,545 DEBUG MenuController 
+[DEBUG]buildUserMenuPermissions
+
+13 Jan 2020 23:17:54,545 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+13 Jan 2020 23:17:54,546 DEBUG MenuServiceImpl
+[DEBUG][]
+
+13 Jan 2020 23:17:54,555 DEBUG MenuController 
+[DEBUG]init all menus  []
+
+13 Jan 2020 23:17:54,555 DEBUG MenuController 
+[DEBUG]buildUserMenuTree
+
+13 Jan 2020 23:17:54,555 DEBUG MenuController 
+[DEBUG]all menus  []
+
+13 Jan 2020 23:17:54,555 DEBUG MenuController 
+[DEBUG]rootElements []
+
+13 Jan 2020 23:22:04,327 INFO  App            
+Starting App on lp-lv-mayad with PID 8824 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+13 Jan 2020 23:22:04,327 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+13 Jan 2020 23:22:04,328 INFO  App            
+No active profile set, falling back to default profiles: default
+
+13 Jan 2020 23:22:37,373 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+13 Jan 2020 23:22:37,459 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+13 Jan 2020 23:22:38,009 INFO  App            
+Started App in 33.993 seconds (JVM running for 34.819)
+
+13 Jan 2020 23:24:07,117 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 80f3a1d25bf730101d7c1890bb9ab7453f8fc1f4a1d1fac9979c21e3974717fa
+
+13 Jan 2020 23:24:07,117 DEBUG LoginController
+[DEBUG]securityService not null
+
+13 Jan 2020 23:24:07,117 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -833316432049096851:-4166534011798312870 hashsum f6ebb4c884139013c2ba2c887d213143a9a436cc968cf288500fe3e635cb67f4
+
+13 Jan 2020 23:24:07,118 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+13 Jan 2020 23:24:07,118 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+13 Jan 2020 23:24:07,169 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+13 Jan 2020 23:24:07,170 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum f6ebb4c884139013c2ba2c887d213143a9a436cc968cf288500fe3e635cb67f4
+
+13 Jan 2020 23:24:07,170 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue 80f3a1d25bf730101d7c1890bb9ab7453f8fc1f4a1d1fac9979c21e3974717fa
+
+13 Jan 2020 23:24:07,170 DEBUG SecurityServiceImpl
+[DEBUG]password matched successfully
+
+13 Jan 2020 23:24:07,170 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS SUCCESS_LOGIN
+
+13 Jan 2020 23:24:07,170 DEBUG LoginController
+[DEBUG]SUCCESS_LOGIN ayad
+
+13 Jan 2020 23:24:07,170 DEBUG LoginController
+[DEBUG]signInUser ayad
+
+13 Jan 2020 23:24:07,170 DEBUG TruckTrackingUtils
+[DEBUG]registerAuthenticatedUserInSession ayad
+
+13 Jan 2020 23:24:07,171 DEBUG TruckTrackingUtils
+[DEBUG]getSessionForLogin
+
+13 Jan 2020 23:24:07,171 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+13 Jan 2020 23:24:07,171 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+13 Jan 2020 23:24:07,171 DEBUG TruckTrackingUtils
+[DEBUG]start save user data into session
+
+13 Jan 2020 23:24:07,171 DEBUG TruckTrackingUtils
+[DEBUG]loggedIn true userId ayad lastLoginTime Mon Jan 13 23:24:07 GMT+02:00 2020 user truckTracker.User[ id=1 ]
+
+13 Jan 2020 23:24:07,171 DEBUG TruckTrackingUtils
+[DEBUG]addLoginCookie in response org.apache.catalina.connector.ResponseFacade@446383e0
+
+13 Jan 2020 23:24:07,171 DEBUG TruckTrackingUtils
+[DEBUG]Cookie nameLID uuID value 25855b56-086b-4593-8262-7525df31ead0
+
+13 Jan 2020 23:24:07,171 DEBUG TruckTrackingUtils
+[DEBUG]added cookie to response
+
+13 Jan 2020 23:24:07,171 DEBUG LoginController
+[DEBUG]ayad signed in session successfully
+
+13 Jan 2020 23:24:07,171 DEBUG LoginController
+[DEBUG]send ayad to home /homepage.xhtml
+
+13 Jan 2020 23:24:07,234 DEBUG MenuController 
+[DEBUG]initializeMenu has been called
+
+13 Jan 2020 23:24:07,235 DEBUG MenuController 
+[DEBUG]truckTracker.User[ id=1 ]
+
+13 Jan 2020 23:24:07,235 DEBUG MenuServiceImpl
+[DEBUG]getUserRootMenus
+
+13 Jan 2020 23:24:07,235 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+13 Jan 2020 23:24:07,276 DEBUG MenuServiceImpl
+[DEBUG][]
+
+13 Jan 2020 23:24:07,276 DEBUG MenuServiceImpl
+[DEBUG]All Menus []
+
+13 Jan 2020 23:24:07,276 DEBUG MenuServiceImpl
+[DEBUG]Root Menus []
+
+13 Jan 2020 23:24:07,276 DEBUG MenuController 
+[DEBUG]rootElements []
+
+13 Jan 2020 23:24:07,277 DEBUG MenuController 
+[DEBUG]rootElements []
+
+13 Jan 2020 23:24:07,277 DEBUG MenuController 
+[DEBUG]buildUserMenuPermissions
+
+13 Jan 2020 23:24:07,277 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+13 Jan 2020 23:24:07,278 DEBUG MenuServiceImpl
+[DEBUG][]
+
+13 Jan 2020 23:24:07,291 DEBUG MenuController 
+[DEBUG]init all menus  []
+
+13 Jan 2020 23:24:07,291 DEBUG MenuController 
+[DEBUG]buildUserMenuTree
+
+13 Jan 2020 23:24:07,291 DEBUG MenuController 
+[DEBUG]all menus  []
+
+13 Jan 2020 23:24:07,291 DEBUG MenuController 
+[DEBUG]rootElements []
+
+13 Jan 2020 23:53:01,808 INFO  App            
+Starting App on lp-lv-mayad with PID 11640 (started by mohammed.ayad in D:\ITS\programes\spring STS\workspace-spring-sts\truck-tracking)
+
+13 Jan 2020 23:53:01,809 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+13 Jan 2020 23:53:01,809 INFO  App            
+No active profile set, falling back to default profiles: default
+
+13 Jan 2020 23:53:34,451 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+13 Jan 2020 23:53:34,522 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+13 Jan 2020 23:53:35,028 INFO  App            
+Started App in 33.576 seconds (JVM running for 34.393)
+
+13 Jan 2020 23:54:12,879 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 04c7f133c55c7657ef5b048987ed130187a32d19ea373a46918e499dae8ca837
+
+13 Jan 2020 23:54:12,880 DEBUG LoginController
+[DEBUG]securityService not null
+
+13 Jan 2020 23:54:12,880 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -8542144329367389318:1377617138661941277 hashsum 10e29ff3690e9d34bdaf1b135e11b93e48af71f1c594fd19bbbd3639ffc38fee
+
+13 Jan 2020 23:54:12,880 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+13 Jan 2020 23:54:12,880 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+13 Jan 2020 23:54:12,937 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+13 Jan 2020 23:54:12,939 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum 10e29ff3690e9d34bdaf1b135e11b93e48af71f1c594fd19bbbd3639ffc38fee
+
+13 Jan 2020 23:54:12,939 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue 04c7f133c55c7657ef5b048987ed130187a32d19ea373a46918e499dae8ca837
+
+13 Jan 2020 23:54:12,939 DEBUG SecurityServiceImpl
+[DEBUG]password matched successfully
+
+13 Jan 2020 23:54:12,939 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS SUCCESS_LOGIN
+
+13 Jan 2020 23:54:12,940 DEBUG LoginController
+[DEBUG]SUCCESS_LOGIN ayad
+
+13 Jan 2020 23:54:12,940 DEBUG LoginController
+[DEBUG]signInUser ayad
+
+13 Jan 2020 23:54:12,940 DEBUG TruckTrackingUtils
+[DEBUG]registerAuthenticatedUserInSession ayad
+
+13 Jan 2020 23:54:12,940 DEBUG TruckTrackingUtils
+[DEBUG]getSessionForLogin
+
+13 Jan 2020 23:54:12,940 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+13 Jan 2020 23:54:12,940 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+13 Jan 2020 23:54:12,940 DEBUG TruckTrackingUtils
+[DEBUG]start save user data into session
+
+13 Jan 2020 23:54:12,940 DEBUG TruckTrackingUtils
+[DEBUG]loggedIn true userId ayad lastLoginTime Mon Jan 13 23:54:12 GMT+02:00 2020 user truckTracker.User[ id=1 ]
+
+13 Jan 2020 23:54:12,940 DEBUG TruckTrackingUtils
+[DEBUG]addLoginCookie in response org.apache.catalina.connector.ResponseFacade@60ecf241
+
+13 Jan 2020 23:54:12,940 DEBUG TruckTrackingUtils
+[DEBUG]Cookie nameLID uuID value 345708d1-8918-406f-9295-b6c178830e59
+
+13 Jan 2020 23:54:12,940 DEBUG TruckTrackingUtils
+[DEBUG]added cookie to response
+
+13 Jan 2020 23:54:12,940 DEBUG LoginController
+[DEBUG]ayad signed in session successfully
+
+13 Jan 2020 23:54:12,941 DEBUG LoginController
+[DEBUG]send ayad to home /homepage.xhtml
+
+13 Jan 2020 23:54:12,993 DEBUG MenuController 
+[DEBUG]initializeMenu has been called
+
+13 Jan 2020 23:54:12,994 DEBUG MenuController 
+[DEBUG]truckTracker.User[ id=1 ]
+
+13 Jan 2020 23:54:12,994 DEBUG MenuServiceImpl
+[DEBUG]getUserRootMenus
+
+13 Jan 2020 23:54:12,994 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+13 Jan 2020 23:54:13,028 DEBUG MenuServiceImpl
+[DEBUG][]
+
+13 Jan 2020 23:54:13,028 DEBUG MenuServiceImpl
+[DEBUG]All Menus []
+
+13 Jan 2020 23:54:13,028 DEBUG MenuServiceImpl
+[DEBUG]Root Menus []
+
+13 Jan 2020 23:54:13,028 DEBUG MenuController 
+[DEBUG]rootElements []
+
+13 Jan 2020 23:54:13,028 DEBUG MenuController 
+[DEBUG]rootElements []
+
+13 Jan 2020 23:54:13,028 DEBUG MenuController 
+[DEBUG]buildUserMenuPermissions
+
+13 Jan 2020 23:54:13,028 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+13 Jan 2020 23:54:13,030 DEBUG MenuServiceImpl
+[DEBUG][]
+
+13 Jan 2020 23:54:13,042 DEBUG MenuController 
+[DEBUG]init all menus  []
+
+13 Jan 2020 23:54:13,042 DEBUG MenuController 
+[DEBUG]buildUserMenuTree
+
+13 Jan 2020 23:54:13,042 DEBUG MenuController 
+[DEBUG]all menus  []
+
+13 Jan 2020 23:54:13,042 DEBUG MenuController 
+[DEBUG]rootElements []
+
+13 Jan 2020 23:54:42,656 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+13 Jan 2020 23:54:42,656 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+13 Jan 2020 23:54:42,656 DEBUG LoginController
+[DEBUG]start logout
+
+13 Jan 2020 23:54:42,657 DEBUG LoginController
+[DEBUG]go to url /login.xhtml
+
+13 Jan 2020 23:54:42,657 DEBUG LoginController
+[DEBUG]redirect to /login.xhtml?faces-redirect=true
+
+13 Jan 2020 23:54:42,657 DEBUG LoginController
+[DEBUG]ayad has been logout successfully
+
+13 Jan 2020 23:55:10,047 DEBUG LoginController
+[DEBUG]doLogin user name ayad password b2b885e3933abd820488e2cbf618934d00264957a23ca7739b3493ca08ccd62a
+
+13 Jan 2020 23:55:10,047 DEBUG LoginController
+[DEBUG]securityService not null
+
+13 Jan 2020 23:55:10,047 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -3346576776159704339:-5552280363697458466 hashsum b90517f0735269ce92f07e4a0058ff774f6346ef94ac54f18932d844cf385d00
+
+13 Jan 2020 23:55:10,047 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+13 Jan 2020 23:55:10,047 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+13 Jan 2020 23:55:10,050 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+13 Jan 2020 23:55:10,050 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum b90517f0735269ce92f07e4a0058ff774f6346ef94ac54f18932d844cf385d00
+
+13 Jan 2020 23:55:10,050 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue b2b885e3933abd820488e2cbf618934d00264957a23ca7739b3493ca08ccd62a
+
+13 Jan 2020 23:55:10,051 DEBUG SecurityServiceImpl
+[DEBUG]password matched successfully
+
+13 Jan 2020 23:55:10,051 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS SUCCESS_LOGIN
+
+13 Jan 2020 23:55:10,051 DEBUG LoginController
+[DEBUG]SUCCESS_LOGIN ayad
+
+13 Jan 2020 23:55:10,051 DEBUG LoginController
+[DEBUG]signInUser ayad
+
+13 Jan 2020 23:55:10,051 DEBUG TruckTrackingUtils
+[DEBUG]registerAuthenticatedUserInSession ayad
+
+13 Jan 2020 23:55:10,051 DEBUG TruckTrackingUtils
+[DEBUG]getSessionForLogin
+
+13 Jan 2020 23:55:10,051 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+13 Jan 2020 23:55:10,051 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+13 Jan 2020 23:55:10,051 DEBUG TruckTrackingUtils
+[DEBUG]start save user data into session
+
+13 Jan 2020 23:55:10,051 DEBUG TruckTrackingUtils
+[DEBUG]loggedIn true userId ayad lastLoginTime Mon Jan 13 23:55:10 GMT+02:00 2020 user truckTracker.User[ id=1 ]
+
+13 Jan 2020 23:55:10,051 DEBUG TruckTrackingUtils
+[DEBUG]addLoginCookie in response org.apache.catalina.connector.ResponseFacade@59fe3632
+
+13 Jan 2020 23:55:10,051 DEBUG TruckTrackingUtils
+[DEBUG]Cookie nameLID uuID value e4d65dc6-334f-4674-bad3-02a1272235bc
+
+13 Jan 2020 23:55:10,051 DEBUG TruckTrackingUtils
+[DEBUG]added cookie to response
+
+13 Jan 2020 23:55:10,051 DEBUG LoginController
+[DEBUG]ayad signed in session successfully
+
+13 Jan 2020 23:55:10,051 DEBUG LoginController
+[DEBUG]send ayad to home /homepage.xhtml
+

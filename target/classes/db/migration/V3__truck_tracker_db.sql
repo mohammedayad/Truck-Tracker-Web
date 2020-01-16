@@ -58,9 +58,9 @@ CREATE TABLE delivered_packet (
   menu_name VARCHAR(45) NOT NULL,
   link VARCHAR(45) NOT NULL,
   user_id INT(11) NOT NULL,
-  model_type VARCHAR(45) DEFAULT NULL,
-  parent_id INT(11) DEFAULT NULL,
-  menu_order INT(11) DEFAULT NULL,
+  model_type VARCHAR(45) NULL,
+  parent_id INT(11),
+  menu_order INT(11) NOT NULL,
   PRIMARY KEY (menu_id),
   CONSTRAINT fk_Menu_User1 FOREIGN KEY (user_id) REFERENCES user (user_id) ON DELETE NO ACTION ON UPDATE NO ACTION
 );

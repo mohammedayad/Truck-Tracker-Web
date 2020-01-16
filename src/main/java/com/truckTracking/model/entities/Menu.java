@@ -56,7 +56,8 @@ public class Menu implements Serializable {
 	private String link;
 	@Column(name = "model_type")
 	private String modelType;
-//	@Column(name = "parent_id")
+//	@Column(name = "parent_id", insertable = false, updatable = false)
+//	@Basic(optional = true)
 //	private Integer parentId;
 	@Column(name = "menu_order")
 	private Integer menuOrder;
@@ -64,11 +65,11 @@ public class Menu implements Serializable {
 	@ManyToOne(optional = false)
 	private User userId;
 
-	@OneToMany(mappedBy = "parentMenu", fetch = FetchType.EAGER)
+	@OneToMany(mappedBy = "parentMenu", fetch = FetchType.LAZY)
 	private List<Menu> childMenu;
 
 	@JoinColumn(name = "parent_id", referencedColumnName = "menu_id")
-	@ManyToOne(fetch = FetchType.EAGER)
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Menu parentMenu;
 
 	public Menu() {

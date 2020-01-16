@@ -1,0 +1,510 @@
+15 Jan 2020 14:43:07,852 INFO  App            
+Starting App on Mohammed-Ahmed with PID 42916 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+15 Jan 2020 14:43:07,855 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+15 Jan 2020 14:43:07,856 INFO  App            
+No active profile set, falling back to default profiles: default
+
+15 Jan 2020 14:43:12,310 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+15 Jan 2020 14:43:12,371 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+15 Jan 2020 14:43:12,724 INFO  App            
+Started App in 5.133 seconds (JVM running for 5.78)
+
+15 Jan 2020 15:55:04,524 INFO  App            
+Starting App on Mohammed-Ahmed with PID 34916 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+15 Jan 2020 15:55:04,524 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+15 Jan 2020 15:55:04,525 INFO  App            
+No active profile set, falling back to default profiles: default
+
+15 Jan 2020 15:55:14,346 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+15 Jan 2020 15:55:14,410 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+15 Jan 2020 15:55:14,964 INFO  App            
+Started App in 11.64 seconds (JVM running for 38.061)
+
+15 Jan 2020 16:03:56,870 INFO  App            
+Starting App on Mohammed-Ahmed with PID 28504 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+15 Jan 2020 16:03:56,871 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+15 Jan 2020 16:03:56,874 INFO  App            
+No active profile set, falling back to default profiles: default
+
+15 Jan 2020 16:04:01,213 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+15 Jan 2020 16:04:01,261 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+15 Jan 2020 16:04:01,584 INFO  App            
+Started App in 4.945 seconds (JVM running for 5.513)
+
+15 Jan 2020 16:20:05,529 DEBUG LoginController
+[DEBUG]doLogin user name ayad password e56ad709a38c35c85ccf2f47146901681897323dafd0a3453ccfba1119c9a357
+
+15 Jan 2020 16:20:05,529 DEBUG LoginController
+[DEBUG]securityService not null
+
+15 Jan 2020 16:20:05,529 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -2934638025767771553:2306371971732749737 hashsum 8cea3166ec21e2d1b6d3baa2a08f78a6545e4e775f9aba35225c194f48bc2241
+
+15 Jan 2020 16:20:05,530 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+15 Jan 2020 16:20:05,530 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+15 Jan 2020 16:20:05,568 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+15 Jan 2020 16:20:05,569 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum 8cea3166ec21e2d1b6d3baa2a08f78a6545e4e775f9aba35225c194f48bc2241
+
+15 Jan 2020 16:20:05,569 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue e56ad709a38c35c85ccf2f47146901681897323dafd0a3453ccfba1119c9a357
+
+15 Jan 2020 16:20:05,569 DEBUG SecurityServiceImpl
+[DEBUG]password matched successfully
+
+15 Jan 2020 16:20:05,569 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS SUCCESS_LOGIN
+
+15 Jan 2020 16:20:05,569 DEBUG LoginController
+[DEBUG]SUCCESS_LOGIN ayad
+
+15 Jan 2020 16:20:05,569 DEBUG LoginController
+[DEBUG]signInUser ayad
+
+15 Jan 2020 16:20:05,570 DEBUG TruckTrackingUtils
+[DEBUG]registerAuthenticatedUserInSession ayad
+
+15 Jan 2020 16:20:05,570 DEBUG TruckTrackingUtils
+[DEBUG]getSessionForLogin
+
+15 Jan 2020 16:20:05,570 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+15 Jan 2020 16:20:05,570 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+15 Jan 2020 16:20:05,570 DEBUG TruckTrackingUtils
+[DEBUG]start save user data into session
+
+15 Jan 2020 16:20:05,570 DEBUG TruckTrackingUtils
+[DEBUG]loggedIn true userId ayad lastLoginTime Wed Jan 15 16:20:05 EET 2020 user truckTracker.User[ id=1 ]
+
+15 Jan 2020 16:20:05,570 DEBUG TruckTrackingUtils
+[DEBUG]addLoginCookie in response org.apache.catalina.connector.ResponseFacade@418dbd66
+
+15 Jan 2020 16:20:05,570 DEBUG TruckTrackingUtils
+[DEBUG]Cookie nameLID uuID value 81f24b15-6e54-416e-8266-5b8c3b50f1e5
+
+15 Jan 2020 16:20:05,570 DEBUG TruckTrackingUtils
+[DEBUG]added cookie to response
+
+15 Jan 2020 16:20:05,570 DEBUG LoginController
+[DEBUG]ayad signed in session successfully
+
+15 Jan 2020 16:20:05,570 DEBUG LoginController
+[DEBUG]send ayad to home /homepage.xhtml
+
+15 Jan 2020 16:20:05,623 DEBUG MenuController 
+[DEBUG]initializeMenu has been called
+
+15 Jan 2020 16:20:05,623 DEBUG MenuController 
+[DEBUG]truckTracker.User[ id=1 ]
+
+15 Jan 2020 16:20:05,623 DEBUG MenuServiceImpl
+[DEBUG]getUserRootMenus
+
+15 Jan 2020 16:20:05,623 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+15 Jan 2020 16:20:25,155 DEBUG LoginController
+[DEBUG]doLogin user name ayad password e56ad709a38c35c85ccf2f47146901681897323dafd0a3453ccfba1119c9a357
+
+15 Jan 2020 16:20:25,155 DEBUG LoginController
+[DEBUG]securityService not null
+
+15 Jan 2020 16:20:25,155 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -2934638025767771553:2306371971732749737 hashsum 8cea3166ec21e2d1b6d3baa2a08f78a6545e4e775f9aba35225c194f48bc2241
+
+15 Jan 2020 16:20:25,155 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+15 Jan 2020 16:20:25,155 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+15 Jan 2020 16:20:25,158 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+15 Jan 2020 16:20:25,158 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum 8cea3166ec21e2d1b6d3baa2a08f78a6545e4e775f9aba35225c194f48bc2241
+
+15 Jan 2020 16:20:25,158 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue e56ad709a38c35c85ccf2f47146901681897323dafd0a3453ccfba1119c9a357
+
+15 Jan 2020 16:20:25,158 DEBUG SecurityServiceImpl
+[DEBUG]password matched successfully
+
+15 Jan 2020 16:20:25,158 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS SUCCESS_LOGIN
+
+15 Jan 2020 16:20:25,158 DEBUG LoginController
+[DEBUG]SUCCESS_LOGIN ayad
+
+15 Jan 2020 16:20:25,158 DEBUG LoginController
+[DEBUG]signInUser ayad
+
+15 Jan 2020 16:20:25,158 DEBUG TruckTrackingUtils
+[DEBUG]registerAuthenticatedUserInSession ayad
+
+15 Jan 2020 16:20:25,159 DEBUG TruckTrackingUtils
+[DEBUG]getSessionForLogin
+
+15 Jan 2020 16:20:25,159 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+15 Jan 2020 16:20:25,159 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+15 Jan 2020 16:20:25,159 DEBUG TruckTrackingUtils
+[DEBUG]start save user data into session
+
+15 Jan 2020 16:20:25,159 DEBUG TruckTrackingUtils
+[DEBUG]loggedIn true userId ayad lastLoginTime Wed Jan 15 16:20:25 EET 2020 user truckTracker.User[ id=1 ]
+
+15 Jan 2020 16:20:25,159 DEBUG TruckTrackingUtils
+[DEBUG]addLoginCookie in response org.apache.catalina.connector.ResponseFacade@418dbd66
+
+15 Jan 2020 16:20:25,159 DEBUG TruckTrackingUtils
+[DEBUG]Cookie nameLID uuID value d60315a9-b0b8-40fe-8862-654267fa59af
+
+15 Jan 2020 16:20:25,159 DEBUG TruckTrackingUtils
+[DEBUG]added cookie to response
+
+15 Jan 2020 16:20:25,159 DEBUG LoginController
+[DEBUG]ayad signed in session successfully
+
+15 Jan 2020 16:20:25,159 DEBUG LoginController
+[DEBUG]send ayad to home /homepage.xhtml
+
+15 Jan 2020 16:20:25,165 DEBUG MenuController 
+[DEBUG]initializeMenu has been called
+
+15 Jan 2020 16:20:25,165 DEBUG MenuController 
+[DEBUG]truckTracker.User[ id=1 ]
+
+15 Jan 2020 16:20:25,165 DEBUG MenuServiceImpl
+[DEBUG]getUserRootMenus
+
+15 Jan 2020 16:20:25,165 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+15 Jan 2020 16:24:37,036 INFO  App            
+Starting App on Mohammed-Ahmed with PID 27964 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+15 Jan 2020 16:24:37,039 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+15 Jan 2020 16:24:37,040 INFO  App            
+No active profile set, falling back to default profiles: default
+
+15 Jan 2020 16:27:13,154 INFO  App            
+Starting App on Mohammed-Ahmed with PID 30036 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+15 Jan 2020 16:27:13,158 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+15 Jan 2020 16:27:13,159 INFO  App            
+No active profile set, falling back to default profiles: default
+
+15 Jan 2020 16:27:17,472 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+15 Jan 2020 16:27:17,519 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+15 Jan 2020 16:27:17,865 INFO  App            
+Started App in 4.932 seconds (JVM running for 5.5)
+
+15 Jan 2020 16:32:22,236 INFO  App            
+Starting App on Mohammed-Ahmed with PID 25912 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+15 Jan 2020 16:32:22,236 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+15 Jan 2020 16:32:22,241 INFO  App            
+No active profile set, falling back to default profiles: default
+
+15 Jan 2020 16:32:26,528 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+15 Jan 2020 16:32:26,575 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+15 Jan 2020 16:32:26,903 INFO  App            
+Started App in 4.917 seconds (JVM running for 5.5)
+
+15 Jan 2020 16:39:25,499 INFO  App            
+Starting App on Mohammed-Ahmed with PID 31248 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+15 Jan 2020 16:39:25,502 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+15 Jan 2020 16:39:25,502 INFO  App            
+No active profile set, falling back to default profiles: default
+
+15 Jan 2020 16:39:29,822 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+15 Jan 2020 16:39:29,872 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+15 Jan 2020 16:39:30,225 INFO  App            
+Started App in 4.951 seconds (JVM running for 5.521)
+
+15 Jan 2020 16:40:58,958 INFO  App            
+Starting App on Mohammed-Ahmed with PID 34844 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+15 Jan 2020 16:40:58,958 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+15 Jan 2020 16:40:58,961 INFO  App            
+No active profile set, falling back to default profiles: default
+
+15 Jan 2020 16:41:03,465 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+15 Jan 2020 16:41:03,554 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+15 Jan 2020 16:41:03,949 INFO  App            
+Started App in 5.213 seconds (JVM running for 5.782)
+
+15 Jan 2020 16:43:09,890 INFO  App            
+Starting App on Mohammed-Ahmed with PID 36728 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+15 Jan 2020 16:43:09,890 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+15 Jan 2020 16:43:09,891 INFO  App            
+No active profile set, falling back to default profiles: default
+
+15 Jan 2020 16:43:14,128 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+15 Jan 2020 16:43:14,178 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+15 Jan 2020 16:43:14,511 INFO  App            
+Started App in 4.85 seconds (JVM running for 5.421)
+
+15 Jan 2020 17:07:10,740 INFO  App            
+Starting App on Mohammed-Ahmed with PID 29088 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+15 Jan 2020 17:07:10,744 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+15 Jan 2020 17:07:10,744 INFO  App            
+No active profile set, falling back to default profiles: default
+
+15 Jan 2020 17:07:15,012 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+15 Jan 2020 17:07:15,059 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+15 Jan 2020 17:07:15,387 INFO  App            
+Started App in 4.862 seconds (JVM running for 5.432)
+
+15 Jan 2020 17:13:17,704 INFO  App            
+Starting App on Mohammed-Ahmed with PID 38568 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+15 Jan 2020 17:13:17,708 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+15 Jan 2020 17:13:17,708 INFO  App            
+No active profile set, falling back to default profiles: default
+
+15 Jan 2020 17:13:22,080 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+15 Jan 2020 17:13:22,158 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+15 Jan 2020 17:13:22,491 INFO  App            
+Started App in 4.995 seconds (JVM running for 5.576)
+
+15 Jan 2020 18:04:37,758 INFO  App            
+Starting App on Mohammed-Ahmed with PID 35576 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+15 Jan 2020 18:04:37,759 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+15 Jan 2020 18:04:37,759 INFO  App            
+No active profile set, falling back to default profiles: default
+
+15 Jan 2020 18:04:42,000 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+15 Jan 2020 18:04:42,047 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+15 Jan 2020 18:04:42,417 INFO  App            
+Started App in 4.875 seconds (JVM running for 5.467)
+
+15 Jan 2020 18:07:02,772 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 11d2e3a8b06c26158f855ec0a05818d4d7cf49ec11848afb37c049d973b6afc1
+
+15 Jan 2020 18:07:02,772 DEBUG LoginController
+[DEBUG]securityService not null
+
+15 Jan 2020 18:07:02,772 DEBUG LoginController
+[DEBUG]javax.faces.ViewState 7324541275254328329:2048576569398105713 hashsum 3a7b7a047cc1b323b9f801d95fe564be2bf5ece3a137c508f3c6f59fae292f9f
+
+15 Jan 2020 18:07:02,772 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+15 Jan 2020 18:07:02,773 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+15 Jan 2020 18:07:02,809 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+15 Jan 2020 18:07:02,810 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum 3a7b7a047cc1b323b9f801d95fe564be2bf5ece3a137c508f3c6f59fae292f9f
+
+15 Jan 2020 18:07:02,810 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue 11d2e3a8b06c26158f855ec0a05818d4d7cf49ec11848afb37c049d973b6afc1
+
+15 Jan 2020 18:07:02,810 DEBUG SecurityServiceImpl
+[DEBUG]password matched successfully
+
+15 Jan 2020 18:07:02,810 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS SUCCESS_LOGIN
+
+15 Jan 2020 18:07:02,811 DEBUG LoginController
+[DEBUG]SUCCESS_LOGIN ayad
+
+15 Jan 2020 18:07:02,811 DEBUG LoginController
+[DEBUG]signInUser ayad
+
+15 Jan 2020 18:07:02,811 DEBUG TruckTrackingUtils
+[DEBUG]registerAuthenticatedUserInSession ayad
+
+15 Jan 2020 18:07:02,811 DEBUG TruckTrackingUtils
+[DEBUG]getSessionForLogin
+
+15 Jan 2020 18:07:02,811 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+15 Jan 2020 18:07:02,811 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+15 Jan 2020 18:07:02,811 DEBUG TruckTrackingUtils
+[DEBUG]start save user data into session
+
+15 Jan 2020 18:07:02,811 DEBUG TruckTrackingUtils
+[DEBUG]loggedIn true userId ayad lastLoginTime Wed Jan 15 18:07:02 EET 2020 user truckTracker.User[ id=1 ]
+
+15 Jan 2020 18:07:02,811 DEBUG TruckTrackingUtils
+[DEBUG]addLoginCookie in response org.apache.catalina.connector.ResponseFacade@3fe7bf38
+
+15 Jan 2020 18:07:02,811 DEBUG TruckTrackingUtils
+[DEBUG]Cookie nameLID uuID value ef7f52e8-f900-480e-ac7f-c385ee1e3043
+
+15 Jan 2020 18:07:02,811 DEBUG TruckTrackingUtils
+[DEBUG]added cookie to response
+
+15 Jan 2020 18:07:02,811 DEBUG LoginController
+[DEBUG]ayad signed in session successfully
+
+15 Jan 2020 18:07:02,811 DEBUG LoginController
+[DEBUG]send ayad to home /homepage.xhtml
+
+15 Jan 2020 18:07:02,848 DEBUG MenuController 
+[DEBUG]initializeMenu has been called
+
+15 Jan 2020 18:07:02,849 DEBUG MenuController 
+[DEBUG]truckTracker.User[ id=1 ]
+
+15 Jan 2020 18:07:02,849 DEBUG MenuServiceImpl
+[DEBUG]getUserRootMenus
+
+15 Jan 2020 18:07:02,849 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+15 Jan 2020 18:15:57,528 INFO  App            
+Starting App on Mohammed-Ahmed with PID 15836 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+15 Jan 2020 18:15:57,532 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+15 Jan 2020 18:15:57,532 INFO  App            
+No active profile set, falling back to default profiles: default
+
+15 Jan 2020 18:16:01,889 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+15 Jan 2020 18:16:01,937 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+15 Jan 2020 18:16:02,265 INFO  App            
+Started App in 4.969 seconds (JVM running for 5.548)
+
+15 Jan 2020 18:30:21,994 INFO  App            
+Starting App on Mohammed-Ahmed with PID 27120 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+15 Jan 2020 18:30:21,995 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+15 Jan 2020 18:30:21,995 INFO  App            
+No active profile set, falling back to default profiles: default
+
+15 Jan 2020 18:30:26,409 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+15 Jan 2020 18:30:26,456 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+15 Jan 2020 18:30:26,773 INFO  App            
+Started App in 5.026 seconds (JVM running for 5.843)
+
+15 Jan 2020 18:34:01,895 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+15 Jan 2020 18:34:01,943 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+15 Jan 2020 18:39:03,282 INFO  App            
+Starting App on Mohammed-Ahmed with PID 32320 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+15 Jan 2020 18:39:03,282 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+15 Jan 2020 18:39:03,285 INFO  App            
+No active profile set, falling back to default profiles: default
+
+15 Jan 2020 18:39:07,521 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+15 Jan 2020 18:39:07,569 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+15 Jan 2020 18:39:07,893 INFO  App            
+Started App in 4.834 seconds (JVM running for 5.404)
+
