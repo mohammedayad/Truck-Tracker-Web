@@ -1,0 +1,1044 @@
+16 ينا 2020 12:44:05,517 INFO  App            
+Starting App on Mohammed-Ahmed with PID 32100 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+16 ينا 2020 12:44:05,524 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+16 ينا 2020 12:44:05,525 INFO  App            
+No active profile set, falling back to default profiles: default
+
+16 ينا 2020 12:44:10,117 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+16 ينا 2020 12:44:10,172 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+16 ينا 2020 12:44:10,508 INFO  App            
+Started App in 5.238 seconds (JVM running for 5.988)
+
+16 ينا 2020 12:53:58,864 INFO  App            
+Starting App on Mohammed-Ahmed with PID 5044 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+16 ينا 2020 12:53:58,865 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+16 ينا 2020 12:53:58,868 INFO  App            
+No active profile set, falling back to default profiles: default
+
+16 ينا 2020 12:54:04,693 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+16 ينا 2020 12:54:04,743 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+16 ينا 2020 12:54:05,116 INFO  App            
+Started App in 6.518 seconds (JVM running for 7.08)
+
+16 ينا 2020 12:59:29,391 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 833725809be1ed2b7b3e0aea48eee40a2a43326a239f1585f427469b4b744709
+
+16 ينا 2020 12:59:29,391 DEBUG LoginController
+[DEBUG]securityService not null
+
+16 ينا 2020 12:59:29,391 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -1748103144582604168:1441844416188815458 hashsum dde8bd16f112f3187a5d3106c55476facc6d5c895a76d0a841cb84bde3909dd3
+
+16 ينا 2020 12:59:29,392 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+16 ينا 2020 12:59:29,392 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+16 ينا 2020 12:59:29,437 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+16 ينا 2020 12:59:29,438 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum dde8bd16f112f3187a5d3106c55476facc6d5c895a76d0a841cb84bde3909dd3
+
+16 ينا 2020 12:59:29,438 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue 833725809be1ed2b7b3e0aea48eee40a2a43326a239f1585f427469b4b744709
+
+16 ينا 2020 12:59:29,438 DEBUG SecurityServiceImpl
+[DEBUG]password matched successfully
+
+16 ينا 2020 12:59:29,458 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS SUCCESS_LOGIN
+
+16 ينا 2020 12:59:29,458 DEBUG LoginController
+[DEBUG]SUCCESS_LOGIN ayad
+
+16 ينا 2020 12:59:29,458 DEBUG LoginController
+[DEBUG]signInUser ayad
+
+16 ينا 2020 12:59:29,458 DEBUG TruckTrackingUtils
+[DEBUG]registerAuthenticatedUserInSession ayad
+
+16 ينا 2020 12:59:29,458 DEBUG TruckTrackingUtils
+[DEBUG]getSessionForLogin
+
+16 ينا 2020 12:59:29,458 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+16 ينا 2020 12:59:29,458 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+16 ينا 2020 12:59:29,459 DEBUG TruckTrackingUtils
+[DEBUG]start save user data into session
+
+16 ينا 2020 12:59:29,459 DEBUG TruckTrackingUtils
+[DEBUG]loggedIn true userId ayad lastLoginTime Thu Jan 16 12:59:29 EET 2020 user truckTracker.User[ id=1 ]
+
+16 ينا 2020 12:59:29,459 DEBUG TruckTrackingUtils
+[DEBUG]addLoginCookie in response org.apache.catalina.connector.ResponseFacade@5a5731e7
+
+16 ينا 2020 12:59:29,460 DEBUG TruckTrackingUtils
+[DEBUG]Cookie nameLID uuID value ff51bc55-f8bf-40ac-8520-5d677bbb9351
+
+16 ينا 2020 12:59:29,460 DEBUG TruckTrackingUtils
+[DEBUG]added cookie to response
+
+16 ينا 2020 12:59:29,460 DEBUG LoginController
+[DEBUG]ayad signed in session successfully
+
+16 ينا 2020 12:59:29,467 DEBUG LoginController
+[DEBUG]send ayad to home /homepage.xhtml
+
+16 ينا 2020 12:59:29,538 DEBUG MenuController 
+[DEBUG]initializeMenu has been called
+
+16 ينا 2020 12:59:29,539 DEBUG MenuController 
+[DEBUG]truckTracker.User[ id=1 ]
+
+16 ينا 2020 12:59:29,539 DEBUG MenuServiceImpl
+[DEBUG]getUserRootMenus
+
+16 ينا 2020 12:59:29,540 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+16 ينا 2020 12:59:29,572 DEBUG MenuServiceImpl
+[DEBUG][truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 12:59:29,572 DEBUG MenuServiceImpl
+[DEBUG]All Menus [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 12:59:29,572 DEBUG MenuServiceImpl
+[DEBUG]Root Menus [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 12:59:29,572 DEBUG MenuController 
+[DEBUG]rootElements [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 12:59:29,573 DEBUG MenuController 
+[DEBUG]rootElements [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 12:59:29,573 DEBUG MenuController 
+[DEBUG]buildUserMenuPermissions
+
+16 ينا 2020 12:59:29,573 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+16 ينا 2020 12:59:29,574 DEBUG MenuServiceImpl
+[DEBUG][truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 12:59:29,589 DEBUG MenuController 
+[DEBUG]inside clouser execute
+
+16 ينا 2020 12:59:29,589 DEBUG MenuController 
+[DEBUG]element instanceof Menu
+
+16 ينا 2020 12:59:29,605 DEBUG MenuController 
+[DEBUG]init all menus  [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 12:59:29,605 DEBUG MenuController 
+[DEBUG]buildUserMenuTree
+
+16 ينا 2020 12:59:29,605 DEBUG MenuController 
+[DEBUG]all menus  [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 12:59:29,605 DEBUG MenuController 
+[DEBUG]rootElements [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 12:59:29,605 DEBUG MenuController 
+[DEBUG]inside clouser execute
+
+16 ينا 2020 12:59:29,606 DEBUG MenuController 
+[DEBUG]element instanceof Menu
+
+16 ينا 2020 12:59:29,606 DEBUG MenuController 
+[DEBUG]getUIMenu truckTracker.Menu[ menuId=1 ]
+
+16 ينا 2020 12:59:29,606 DEBUG MenuController 
+[DEBUG]getUIMenu Administration
+
+16 ينا 2020 12:59:29,614 DEBUG MenuController 
+[DEBUG]getChildren of Administration
+
+16 ينا 2020 12:59:29,619 DEBUG MenuController 
+[DEBUG]Children of Administration are []
+
+16 ينا 2020 12:59:29,619 DEBUG MenuController 
+[DEBUG]size of children 0
+
+16 ينا 2020 12:59:29,619 DEBUG MenuController 
+[DEBUG]loop on Children of Administration
+
+16 ينا 2020 12:59:29,619 DEBUG MenuController 
+[DEBUG]all user menus [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 13:08:08,002 DEBUG LoginController
+[DEBUG]doLogin user name ayad password fbf2cecda3209dc02df59a19c3e70f00bf30e5272c5104270f0e95aab6e2e7ed
+
+16 ينا 2020 13:08:08,002 DEBUG LoginController
+[DEBUG]securityService not null
+
+16 ينا 2020 13:08:08,002 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -5230683712336829344:4077044541917836064 hashsum 4bd8831754ebfe9c167c841aae4efed88217c9f2a64b45a90a2ae1fe0a24839d
+
+16 ينا 2020 13:08:08,002 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+16 ينا 2020 13:08:08,002 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+16 ينا 2020 13:08:08,006 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+16 ينا 2020 13:08:08,006 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum 4bd8831754ebfe9c167c841aae4efed88217c9f2a64b45a90a2ae1fe0a24839d
+
+16 ينا 2020 13:08:08,006 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue fbf2cecda3209dc02df59a19c3e70f00bf30e5272c5104270f0e95aab6e2e7ed
+
+16 ينا 2020 13:08:08,006 DEBUG SecurityServiceImpl
+[DEBUG]password matched successfully
+
+16 ينا 2020 13:08:08,006 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS SUCCESS_LOGIN
+
+16 ينا 2020 13:08:08,006 DEBUG LoginController
+[DEBUG]SUCCESS_LOGIN ayad
+
+16 ينا 2020 13:08:08,006 DEBUG LoginController
+[DEBUG]signInUser ayad
+
+16 ينا 2020 13:08:08,006 DEBUG TruckTrackingUtils
+[DEBUG]registerAuthenticatedUserInSession ayad
+
+16 ينا 2020 13:08:08,006 DEBUG TruckTrackingUtils
+[DEBUG]getSessionForLogin
+
+16 ينا 2020 13:08:08,006 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+16 ينا 2020 13:08:08,006 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+16 ينا 2020 13:08:08,006 DEBUG TruckTrackingUtils
+[DEBUG]start save user data into session
+
+16 ينا 2020 13:08:08,007 DEBUG TruckTrackingUtils
+[DEBUG]loggedIn true userId ayad lastLoginTime Thu Jan 16 13:08:08 EET 2020 user truckTracker.User[ id=1 ]
+
+16 ينا 2020 13:08:08,007 DEBUG TruckTrackingUtils
+[DEBUG]addLoginCookie in response org.apache.catalina.connector.ResponseFacade@3bbd5525
+
+16 ينا 2020 13:08:08,007 DEBUG TruckTrackingUtils
+[DEBUG]Cookie nameLID uuID value fd7e01d1-f75f-4b74-9794-b824ce460810
+
+16 ينا 2020 13:08:08,007 DEBUG TruckTrackingUtils
+[DEBUG]added cookie to response
+
+16 ينا 2020 13:08:08,007 DEBUG LoginController
+[DEBUG]ayad signed in session successfully
+
+16 ينا 2020 13:08:08,007 DEBUG LoginController
+[DEBUG]send ayad to home /homepage.xhtml
+
+16 ينا 2020 13:08:09,340 DEBUG MenuController 
+[DEBUG]selectItem
+
+16 ينا 2020 13:08:09,341 DEBUG MenuController 
+[DEBUG]selected menu /root
+
+16 ينا 2020 13:08:09,341 DEBUG MenuController 
+[DEBUG]selected menu url root
+
+16 ينا 2020 13:08:09,341 DEBUG MenuController 
+[DEBUG]openItem
+
+16 ينا 2020 13:08:09,341 DEBUG MenuController 
+[DEBUG]loop on all menus [com.truckTracking.common.dataObjects.UIMenuLink@31962f2b]
+
+16 ينا 2020 13:08:09,341 DEBUG MenuController 
+[DEBUG]currentMenuURL root
+
+16 ينا 2020 13:08:09,341 DEBUG MenuController 
+[DEBUG]currentMenuURL=root
+
+16 ينا 2020 13:08:09,341 DEBUG MenuController 
+[DEBUG]menuURL=root
+
+16 ينا 2020 13:09:14,167 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+16 ينا 2020 13:09:14,167 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+16 ينا 2020 13:09:14,167 DEBUG LoginController
+[DEBUG]start logout
+
+16 ينا 2020 13:09:14,167 DEBUG LoginController
+[DEBUG]go to url /login.xhtml
+
+16 ينا 2020 13:09:14,167 DEBUG LoginController
+[DEBUG]redirect to /login.xhtml?faces-redirect=true
+
+16 ينا 2020 13:09:14,167 DEBUG LoginController
+[DEBUG]ayad has been logout successfully
+
+16 ينا 2020 13:09:27,545 DEBUG LoginController
+[DEBUG]doLogin user name ayad password db9d2731a5fdbd2000312885a38cfbe71b230f87ded916e64cfa5a71d3c2c11f
+
+16 ينا 2020 13:09:27,545 DEBUG LoginController
+[DEBUG]securityService not null
+
+16 ينا 2020 13:09:27,545 DEBUG LoginController
+[DEBUG]javax.faces.ViewState 6397940250479681909:3623105107344785928 hashsum 60240ac98cd78dc08d45d0c93fa8aaae26e7c97236982e55797affcb75d3047f
+
+16 ينا 2020 13:09:27,545 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+16 ينا 2020 13:09:27,545 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+16 ينا 2020 13:09:27,548 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+16 ينا 2020 13:09:27,548 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum 60240ac98cd78dc08d45d0c93fa8aaae26e7c97236982e55797affcb75d3047f
+
+16 ينا 2020 13:09:27,548 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue db9d2731a5fdbd2000312885a38cfbe71b230f87ded916e64cfa5a71d3c2c11f
+
+16 ينا 2020 13:09:27,548 DEBUG SecurityServiceImpl
+[DEBUG]password matched successfully
+
+16 ينا 2020 13:09:27,548 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS SUCCESS_LOGIN
+
+16 ينا 2020 13:09:27,548 DEBUG LoginController
+[DEBUG]SUCCESS_LOGIN ayad
+
+16 ينا 2020 13:09:27,548 DEBUG LoginController
+[DEBUG]signInUser ayad
+
+16 ينا 2020 13:09:27,548 DEBUG TruckTrackingUtils
+[DEBUG]registerAuthenticatedUserInSession ayad
+
+16 ينا 2020 13:09:27,548 DEBUG TruckTrackingUtils
+[DEBUG]getSessionForLogin
+
+16 ينا 2020 13:09:27,548 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+16 ينا 2020 13:09:27,548 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+16 ينا 2020 13:09:27,548 DEBUG TruckTrackingUtils
+[DEBUG]start save user data into session
+
+16 ينا 2020 13:09:27,548 DEBUG TruckTrackingUtils
+[DEBUG]loggedIn true userId ayad lastLoginTime Thu Jan 16 13:09:27 EET 2020 user truckTracker.User[ id=1 ]
+
+16 ينا 2020 13:09:27,548 DEBUG TruckTrackingUtils
+[DEBUG]addLoginCookie in response org.apache.catalina.connector.ResponseFacade@3bbd5525
+
+16 ينا 2020 13:09:27,548 DEBUG TruckTrackingUtils
+[DEBUG]Cookie nameLID uuID value 0277e1a3-d30b-4bfc-84aa-bed95193604f
+
+16 ينا 2020 13:09:27,549 DEBUG TruckTrackingUtils
+[DEBUG]added cookie to response
+
+16 ينا 2020 13:09:27,549 DEBUG LoginController
+[DEBUG]ayad signed in session successfully
+
+16 ينا 2020 13:09:27,549 DEBUG LoginController
+[DEBUG]send ayad to home /homepage.xhtml
+
+16 ينا 2020 14:00:39,079 DEBUG MenuController 
+[DEBUG]initializeMenu has been called
+
+16 ينا 2020 14:00:39,079 DEBUG MenuController 
+[DEBUG]null
+
+16 ينا 2020 14:00:39,079 DEBUG MenuServiceImpl
+[DEBUG]getUserRootMenus
+
+16 ينا 2020 14:00:39,079 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+16 ينا 2020 14:00:39,085 DEBUG MenuServiceImpl
+[DEBUG][truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:39,085 DEBUG MenuServiceImpl
+[DEBUG]All Menus [truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:39,085 DEBUG MenuServiceImpl
+[DEBUG]Root Menus [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 14:00:39,085 DEBUG MenuController 
+[DEBUG]rootElements [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 14:00:39,085 DEBUG MenuController 
+[DEBUG]rootElements [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 14:00:39,085 DEBUG MenuController 
+[DEBUG]buildUserMenuPermissions
+
+16 ينا 2020 14:00:39,085 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+16 ينا 2020 14:00:39,087 DEBUG MenuServiceImpl
+[DEBUG][truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:39,087 DEBUG MenuController 
+[DEBUG]inside clouser execute
+
+16 ينا 2020 14:00:39,087 DEBUG MenuController 
+[DEBUG]element instanceof Menu
+
+16 ينا 2020 14:00:39,087 DEBUG MenuController 
+[DEBUG]inside clouser execute
+
+16 ينا 2020 14:00:39,087 DEBUG MenuController 
+[DEBUG]element instanceof Menu
+
+16 ينا 2020 14:00:39,087 DEBUG MenuController 
+[DEBUG]init all menus  [truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:39,087 DEBUG MenuController 
+[DEBUG]buildUserMenuTree
+
+16 ينا 2020 14:00:39,087 DEBUG MenuController 
+[DEBUG]all menus  [truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:39,087 DEBUG MenuController 
+[DEBUG]rootElements [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 14:00:39,087 DEBUG MenuController 
+[DEBUG]inside clouser execute
+
+16 ينا 2020 14:00:39,087 DEBUG MenuController 
+[DEBUG]element instanceof Menu
+
+16 ينا 2020 14:00:39,087 DEBUG MenuController 
+[DEBUG]getUIMenu truckTracker.Menu[ menuId=1 ]
+
+16 ينا 2020 14:00:39,087 DEBUG MenuController 
+[DEBUG]getUIMenu Administration
+
+16 ينا 2020 14:00:39,087 DEBUG MenuController 
+[DEBUG]getChildren of Administration
+
+16 ينا 2020 14:00:39,088 DEBUG MenuController 
+[DEBUG]Children of Administration are [truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:39,089 DEBUG MenuController 
+[DEBUG]size of children 1
+
+16 ينا 2020 14:00:39,089 DEBUG MenuController 
+[DEBUG]loop on Children of Administration
+
+16 ينا 2020 14:00:39,089 DEBUG MenuController 
+[DEBUG]all user menus [truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:39,089 DEBUG MenuController 
+[DEBUG]child menu truckTracker.Menu[ menuId=2 ]
+
+16 ينا 2020 14:00:39,089 DEBUG MenuController 
+[DEBUG]child name Drivers
+
+16 ينا 2020 14:00:39,089 DEBUG MenuController 
+[DEBUG]all privilage menus for user contain this menu child Drivers
+
+16 ينا 2020 14:00:39,089 DEBUG MenuController 
+[DEBUG]getUIMenu truckTracker.Menu[ menuId=2 ]
+
+16 ينا 2020 14:00:39,089 DEBUG MenuController 
+[DEBUG]getUIMenu Drivers
+
+16 ينا 2020 14:00:39,089 DEBUG MenuController 
+[DEBUG]getChildren of Drivers
+
+16 ينا 2020 14:00:39,089 DEBUG MenuController 
+[DEBUG]Children of Drivers are []
+
+16 ينا 2020 14:00:39,089 DEBUG MenuController 
+[DEBUG]size of children 0
+
+16 ينا 2020 14:00:39,089 DEBUG MenuController 
+[DEBUG]loop on Children of Drivers
+
+16 ينا 2020 14:00:39,089 DEBUG MenuController 
+[DEBUG]all user menus [truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:39,090 DEBUG MenuController 
+[DEBUG]child name Drivers added successfully to its parent Administration
+
+16 ينا 2020 14:00:52,152 DEBUG LoginController
+[DEBUG]doLogin user name ayad password 5bc0b492ab151254a607e234d0df117182f5ad2a89f5ba89d15b3ca5e3e3c082
+
+16 ينا 2020 14:00:52,152 DEBUG LoginController
+[DEBUG]securityService not null
+
+16 ينا 2020 14:00:52,152 DEBUG LoginController
+[DEBUG]javax.faces.ViewState 297578597028681810:-8856711321278654492 hashsum f4de7b0b4d20009d3c12e94fb022c247dd66e68d5d34adfd8e36a5401c1dbb16
+
+16 ينا 2020 14:00:52,152 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+16 ينا 2020 14:00:52,152 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+16 ينا 2020 14:00:52,154 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+16 ينا 2020 14:00:52,155 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum f4de7b0b4d20009d3c12e94fb022c247dd66e68d5d34adfd8e36a5401c1dbb16
+
+16 ينا 2020 14:00:52,155 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue 5bc0b492ab151254a607e234d0df117182f5ad2a89f5ba89d15b3ca5e3e3c082
+
+16 ينا 2020 14:00:52,155 DEBUG SecurityServiceImpl
+[DEBUG]password matched successfully
+
+16 ينا 2020 14:00:52,155 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS SUCCESS_LOGIN
+
+16 ينا 2020 14:00:52,155 DEBUG LoginController
+[DEBUG]SUCCESS_LOGIN ayad
+
+16 ينا 2020 14:00:52,155 DEBUG LoginController
+[DEBUG]signInUser ayad
+
+16 ينا 2020 14:00:52,155 DEBUG TruckTrackingUtils
+[DEBUG]registerAuthenticatedUserInSession ayad
+
+16 ينا 2020 14:00:52,155 DEBUG TruckTrackingUtils
+[DEBUG]getSessionForLogin
+
+16 ينا 2020 14:00:52,155 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+16 ينا 2020 14:00:52,155 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+16 ينا 2020 14:00:52,155 DEBUG TruckTrackingUtils
+[DEBUG]start save user data into session
+
+16 ينا 2020 14:00:52,155 DEBUG TruckTrackingUtils
+[DEBUG]loggedIn true userId ayad lastLoginTime Thu Jan 16 14:00:52 EET 2020 user truckTracker.User[ id=1 ]
+
+16 ينا 2020 14:00:52,155 DEBUG TruckTrackingUtils
+[DEBUG]addLoginCookie in response org.apache.catalina.connector.ResponseFacade@3bbd5525
+
+16 ينا 2020 14:00:52,155 DEBUG TruckTrackingUtils
+[DEBUG]Cookie nameLID uuID value 86f1b25b-d228-4ae3-91b3-679e938e16c1
+
+16 ينا 2020 14:00:52,155 DEBUG TruckTrackingUtils
+[DEBUG]added cookie to response
+
+16 ينا 2020 14:00:52,155 DEBUG LoginController
+[DEBUG]ayad signed in session successfully
+
+16 ينا 2020 14:00:52,155 DEBUG LoginController
+[DEBUG]send ayad to home /homepage.xhtml
+
+16 ينا 2020 14:00:52,159 DEBUG MenuController 
+[DEBUG]initializeMenu has been called
+
+16 ينا 2020 14:00:52,159 DEBUG MenuController 
+[DEBUG]truckTracker.User[ id=1 ]
+
+16 ينا 2020 14:00:52,159 DEBUG MenuServiceImpl
+[DEBUG]getUserRootMenus
+
+16 ينا 2020 14:00:52,159 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+16 ينا 2020 14:00:52,163 DEBUG MenuServiceImpl
+[DEBUG][truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:52,163 DEBUG MenuServiceImpl
+[DEBUG]All Menus [truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:52,163 DEBUG MenuServiceImpl
+[DEBUG]Root Menus [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 14:00:52,163 DEBUG MenuController 
+[DEBUG]rootElements [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 14:00:52,163 DEBUG MenuController 
+[DEBUG]rootElements [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 14:00:52,163 DEBUG MenuController 
+[DEBUG]buildUserMenuPermissions
+
+16 ينا 2020 14:00:52,163 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+16 ينا 2020 14:00:52,166 DEBUG MenuServiceImpl
+[DEBUG][truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:52,166 DEBUG MenuController 
+[DEBUG]inside clouser execute
+
+16 ينا 2020 14:00:52,166 DEBUG MenuController 
+[DEBUG]element instanceof Menu
+
+16 ينا 2020 14:00:52,166 DEBUG MenuController 
+[DEBUG]inside clouser execute
+
+16 ينا 2020 14:00:52,166 DEBUG MenuController 
+[DEBUG]element instanceof Menu
+
+16 ينا 2020 14:00:52,166 DEBUG MenuController 
+[DEBUG]init all menus  [truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:52,166 DEBUG MenuController 
+[DEBUG]buildUserMenuTree
+
+16 ينا 2020 14:00:52,166 DEBUG MenuController 
+[DEBUG]all menus  [truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:52,166 DEBUG MenuController 
+[DEBUG]rootElements [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 14:00:52,166 DEBUG MenuController 
+[DEBUG]inside clouser execute
+
+16 ينا 2020 14:00:52,166 DEBUG MenuController 
+[DEBUG]element instanceof Menu
+
+16 ينا 2020 14:00:52,166 DEBUG MenuController 
+[DEBUG]getUIMenu truckTracker.Menu[ menuId=1 ]
+
+16 ينا 2020 14:00:52,166 DEBUG MenuController 
+[DEBUG]getUIMenu Administration
+
+16 ينا 2020 14:00:52,166 DEBUG MenuController 
+[DEBUG]getChildren of Administration
+
+16 ينا 2020 14:00:52,168 DEBUG MenuController 
+[DEBUG]Children of Administration are [truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:52,168 DEBUG MenuController 
+[DEBUG]size of children 1
+
+16 ينا 2020 14:00:52,168 DEBUG MenuController 
+[DEBUG]loop on Children of Administration
+
+16 ينا 2020 14:00:52,168 DEBUG MenuController 
+[DEBUG]all user menus [truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:52,168 DEBUG MenuController 
+[DEBUG]child menu truckTracker.Menu[ menuId=2 ]
+
+16 ينا 2020 14:00:52,168 DEBUG MenuController 
+[DEBUG]child name Drivers
+
+16 ينا 2020 14:00:52,168 DEBUG MenuController 
+[DEBUG]all privilage menus for user contain this menu child Drivers
+
+16 ينا 2020 14:00:52,168 DEBUG MenuController 
+[DEBUG]getUIMenu truckTracker.Menu[ menuId=2 ]
+
+16 ينا 2020 14:00:52,168 DEBUG MenuController 
+[DEBUG]getUIMenu Drivers
+
+16 ينا 2020 14:00:52,168 DEBUG MenuController 
+[DEBUG]getChildren of Drivers
+
+16 ينا 2020 14:00:52,169 DEBUG MenuController 
+[DEBUG]Children of Drivers are []
+
+16 ينا 2020 14:00:52,170 DEBUG MenuController 
+[DEBUG]size of children 0
+
+16 ينا 2020 14:00:52,170 DEBUG MenuController 
+[DEBUG]loop on Children of Drivers
+
+16 ينا 2020 14:00:52,170 DEBUG MenuController 
+[DEBUG]all user menus [truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 14:00:52,170 DEBUG MenuController 
+[DEBUG]child name Drivers added successfully to its parent Administration
+
+16 ينا 2020 14:00:57,649 DEBUG MenuController 
+[DEBUG]selectItem
+
+16 ينا 2020 14:00:57,649 DEBUG MenuController 
+[DEBUG]selected menu /drivers.xhtml
+
+16 ينا 2020 14:00:57,649 DEBUG MenuController 
+[DEBUG]selected menu url drivers.xhtml
+
+16 ينا 2020 14:00:57,649 DEBUG MenuController 
+[DEBUG]openItem
+
+16 ينا 2020 14:00:57,649 DEBUG MenuController 
+[DEBUG]loop on all menus [com.truckTracking.common.dataObjects.UIMenuLink@65ede685, com.truckTracking.common.dataObjects.UIMenuLink@3ae191b1]
+
+16 ينا 2020 14:00:57,649 DEBUG MenuController 
+[DEBUG]currentMenuURL root
+
+16 ينا 2020 14:00:57,649 DEBUG MenuController 
+[DEBUG]currentMenuURL drivers.xhtml
+
+16 ينا 2020 14:00:57,649 DEBUG MenuController 
+[DEBUG]currentMenuURL=drivers.xhtml
+
+16 ينا 2020 14:00:57,649 DEBUG MenuController 
+[DEBUG]menuURL=drivers.xhtml
+
+16 ينا 2020 14:01:00,410 DEBUG MenuController 
+[DEBUG]selectItem
+
+16 ينا 2020 14:01:00,410 DEBUG MenuController 
+[DEBUG]selected menu /drivers.xhtml
+
+16 ينا 2020 14:01:00,410 DEBUG MenuController 
+[DEBUG]selected menu url drivers.xhtml
+
+16 ينا 2020 14:01:00,410 DEBUG MenuController 
+[DEBUG]openItem
+
+16 ينا 2020 14:01:00,410 DEBUG MenuController 
+[DEBUG]loop on all menus [com.truckTracking.common.dataObjects.UIMenuLink@65ede685, com.truckTracking.common.dataObjects.UIMenuLink@3ae191b1]
+
+16 ينا 2020 14:01:00,410 DEBUG MenuController 
+[DEBUG]currentMenuURL root
+
+16 ينا 2020 14:01:00,410 DEBUG MenuController 
+[DEBUG]currentMenuURL drivers.xhtml
+
+16 ينا 2020 14:01:00,410 DEBUG MenuController 
+[DEBUG]currentMenuURL=drivers.xhtml
+
+16 ينا 2020 14:01:00,410 DEBUG MenuController 
+[DEBUG]menuURL=drivers.xhtml
+
+16 ينا 2020 14:01:02,176 DEBUG MenuController 
+[DEBUG]selectItem
+
+16 ينا 2020 14:01:02,176 DEBUG MenuController 
+[DEBUG]selected menu /drivers.xhtml
+
+16 ينا 2020 14:01:02,176 DEBUG MenuController 
+[DEBUG]selected menu url drivers.xhtml
+
+16 ينا 2020 14:01:02,176 DEBUG MenuController 
+[DEBUG]openItem
+
+16 ينا 2020 14:01:02,176 DEBUG MenuController 
+[DEBUG]loop on all menus [com.truckTracking.common.dataObjects.UIMenuLink@65ede685, com.truckTracking.common.dataObjects.UIMenuLink@3ae191b1]
+
+16 ينا 2020 14:01:02,176 DEBUG MenuController 
+[DEBUG]currentMenuURL root
+
+16 ينا 2020 14:01:02,176 DEBUG MenuController 
+[DEBUG]currentMenuURL drivers.xhtml
+
+16 ينا 2020 14:01:02,176 DEBUG MenuController 
+[DEBUG]currentMenuURL=drivers.xhtml
+
+16 ينا 2020 14:01:02,176 DEBUG MenuController 
+[DEBUG]menuURL=drivers.xhtml
+
+16 ينا 2020 15:25:27,428 INFO  App            
+Starting App on Mohammed-Ahmed with PID 15060 (started by mohammed.ahmed in D:\LinkDev\programs\spring STS\workspace-spring-sts\truck-tracking)
+
+16 ينا 2020 15:25:27,429 DEBUG App            
+Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+
+16 ينا 2020 15:25:27,433 INFO  App            
+No active profile set, falling back to default profiles: default
+
+16 ينا 2020 15:25:31,756 DEBUG MenuServiceImpl
+[DEBUG]MenuService has been initilized
+
+16 ينا 2020 15:25:31,802 DEBUG SecurityServiceImpl
+[DEBUG]SecurityService has been initilized
+
+16 ينا 2020 15:25:32,157 INFO  App            
+Started App in 4.984 seconds (JVM running for 5.552)
+
+16 ينا 2020 15:25:55,911 DEBUG LoginController
+[DEBUG]doLogin user name ayad password d1b760d9a5e0154a64655217a69ebb50cd25a1df064270a50b1b87e0e4164d40
+
+16 ينا 2020 15:25:55,911 DEBUG LoginController
+[DEBUG]securityService not null
+
+16 ينا 2020 15:25:55,911 DEBUG LoginController
+[DEBUG]javax.faces.ViewState -6139947544349129811:-4849829392077034452 hashsum 830396cf6b594fdf94c95b25e29c5557274b9ec9e9b8b925f678a73e7a7bf87b
+
+16 ينا 2020 15:25:55,911 DEBUG SecurityServiceImpl
+[DEBUG]validateUserLogin ayad
+
+16 ينا 2020 15:25:55,911 DEBUG SecurityServiceImpl
+[DEBUG]getUserByUsername ayad
+
+16 ينا 2020 15:25:55,954 DEBUG SecurityServiceImpl
+[DEBUG]user is found with this user name ayad
+
+16 ينا 2020 15:25:55,955 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedSum 830396cf6b594fdf94c95b25e29c5557274b9ec9e9b8b925f678a73e7a7bf87b
+
+16 ينا 2020 15:25:55,955 DEBUG SecurityServiceImpl
+[DEBUG]expectedHashedValue d1b760d9a5e0154a64655217a69ebb50cd25a1df064270a50b1b87e0e4164d40
+
+16 ينا 2020 15:25:55,955 DEBUG SecurityServiceImpl
+[DEBUG]password matched successfully
+
+16 ينا 2020 15:25:55,955 DEBUG SecurityServiceImpl
+[DEBUG]LOGIN_STATUS SUCCESS_LOGIN
+
+16 ينا 2020 15:25:55,955 DEBUG LoginController
+[DEBUG]SUCCESS_LOGIN ayad
+
+16 ينا 2020 15:25:55,955 DEBUG LoginController
+[DEBUG]signInUser ayad
+
+16 ينا 2020 15:25:55,955 DEBUG TruckTrackingUtils
+[DEBUG]registerAuthenticatedUserInSession ayad
+
+16 ينا 2020 15:25:55,955 DEBUG TruckTrackingUtils
+[DEBUG]getSessionForLogin
+
+16 ينا 2020 15:25:55,955 DEBUG TruckTrackingUtils
+[DEBUG]getCurrentSession
+
+16 ينا 2020 15:25:55,955 DEBUG TruckTrackingUtils
+[DEBUG]Current Session not null
+
+16 ينا 2020 15:25:55,955 DEBUG TruckTrackingUtils
+[DEBUG]start save user data into session
+
+16 ينا 2020 15:25:55,955 DEBUG TruckTrackingUtils
+[DEBUG]loggedIn true userId ayad lastLoginTime Thu Jan 16 15:25:55 EET 2020 user truckTracker.User[ id=1 ]
+
+16 ينا 2020 15:25:55,955 DEBUG TruckTrackingUtils
+[DEBUG]addLoginCookie in response org.apache.catalina.connector.ResponseFacade@681a7b1
+
+16 ينا 2020 15:25:55,956 DEBUG TruckTrackingUtils
+[DEBUG]Cookie nameLID uuID value aab65496-e41c-463f-93df-35d36e51c815
+
+16 ينا 2020 15:25:55,956 DEBUG TruckTrackingUtils
+[DEBUG]added cookie to response
+
+16 ينا 2020 15:25:55,956 DEBUG LoginController
+[DEBUG]ayad signed in session successfully
+
+16 ينا 2020 15:25:55,956 DEBUG LoginController
+[DEBUG]send ayad to home /homepage.xhtml
+
+16 ينا 2020 15:25:55,998 DEBUG MenuController 
+[DEBUG]initializeMenu has been called
+
+16 ينا 2020 15:25:55,999 DEBUG MenuController 
+[DEBUG]truckTracker.User[ id=1 ]
+
+16 ينا 2020 15:25:55,999 DEBUG MenuServiceImpl
+[DEBUG]getUserRootMenus
+
+16 ينا 2020 15:25:56,000 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+16 ينا 2020 15:25:56,032 DEBUG MenuServiceImpl
+[DEBUG][truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 15:25:56,033 DEBUG MenuServiceImpl
+[DEBUG]All Menus [truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 15:25:56,033 DEBUG MenuServiceImpl
+[DEBUG]Root Menus [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 15:25:56,033 DEBUG MenuController 
+[DEBUG]rootElements [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 15:25:56,033 DEBUG MenuController 
+[DEBUG]rootElements [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 15:25:56,033 DEBUG MenuController 
+[DEBUG]buildUserMenuPermissions
+
+16 ينا 2020 15:25:56,033 DEBUG MenuServiceImpl
+[DEBUG]getAllMenus
+
+16 ينا 2020 15:25:56,041 DEBUG MenuServiceImpl
+[DEBUG][truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 15:25:56,049 DEBUG MenuController 
+[DEBUG]inside clouser execute
+
+16 ينا 2020 15:25:56,049 DEBUG MenuController 
+[DEBUG]element instanceof Menu
+
+16 ينا 2020 15:25:56,049 DEBUG MenuController 
+[DEBUG]inside clouser execute
+
+16 ينا 2020 15:25:56,049 DEBUG MenuController 
+[DEBUG]element instanceof Menu
+
+16 ينا 2020 15:25:56,049 DEBUG MenuController 
+[DEBUG]init all menus  [truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 15:25:56,049 DEBUG MenuController 
+[DEBUG]buildUserMenuTree
+
+16 ينا 2020 15:25:56,049 DEBUG MenuController 
+[DEBUG]all menus  [truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 15:25:56,050 DEBUG MenuController 
+[DEBUG]rootElements [truckTracker.Menu[ menuId=1 ]]
+
+16 ينا 2020 15:25:56,050 DEBUG MenuController 
+[DEBUG]inside clouser execute
+
+16 ينا 2020 15:25:56,050 DEBUG MenuController 
+[DEBUG]element instanceof Menu
+
+16 ينا 2020 15:25:56,050 DEBUG MenuController 
+[DEBUG]getUIMenu truckTracker.Menu[ menuId=1 ]
+
+16 ينا 2020 15:25:56,050 DEBUG MenuController 
+[DEBUG]getUIMenu Administration
+
+16 ينا 2020 15:25:56,050 DEBUG MenuController 
+[DEBUG]getChildren of Administration
+
+16 ينا 2020 15:25:56,056 DEBUG MenuController 
+[DEBUG]Children of Administration are [truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 15:25:56,056 DEBUG MenuController 
+[DEBUG]size of children 1
+
+16 ينا 2020 15:25:56,056 DEBUG MenuController 
+[DEBUG]loop on Children of Administration
+
+16 ينا 2020 15:25:56,056 DEBUG MenuController 
+[DEBUG]all user menus [truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 15:25:56,056 DEBUG MenuController 
+[DEBUG]child menu truckTracker.Menu[ menuId=2 ]
+
+16 ينا 2020 15:25:56,056 DEBUG MenuController 
+[DEBUG]child name Drivers
+
+16 ينا 2020 15:25:56,056 DEBUG MenuController 
+[DEBUG]all privilage menus for user contain this menu child Drivers
+
+16 ينا 2020 15:25:56,056 DEBUG MenuController 
+[DEBUG]getUIMenu truckTracker.Menu[ menuId=2 ]
+
+16 ينا 2020 15:25:56,056 DEBUG MenuController 
+[DEBUG]getUIMenu Drivers
+
+16 ينا 2020 15:25:56,056 DEBUG MenuController 
+[DEBUG]getChildren of Drivers
+
+16 ينا 2020 15:25:56,058 DEBUG MenuController 
+[DEBUG]Children of Drivers are []
+
+16 ينا 2020 15:25:56,058 DEBUG MenuController 
+[DEBUG]size of children 0
+
+16 ينا 2020 15:25:56,058 DEBUG MenuController 
+[DEBUG]loop on Children of Drivers
+
+16 ينا 2020 15:25:56,058 DEBUG MenuController 
+[DEBUG]all user menus [truckTracker.Menu[ menuId=1 ], truckTracker.Menu[ menuId=2 ]]
+
+16 ينا 2020 15:25:56,058 DEBUG MenuController 
+[DEBUG]child name Drivers added successfully to its parent Administration
+
+16 ينا 2020 15:25:58,636 DEBUG MenuController 
+[DEBUG]selectItem
+
+16 ينا 2020 15:25:58,636 DEBUG MenuController 
+[DEBUG]selected menu /drivers.xhtml
+
+16 ينا 2020 15:25:58,636 DEBUG MenuController 
+[DEBUG]selected menu url drivers.xhtml
+
+16 ينا 2020 15:25:58,636 DEBUG MenuController 
+[DEBUG]openItem
+
+16 ينا 2020 15:25:58,636 DEBUG MenuController 
+[DEBUG]loop on all menus [com.truckTracking.common.dataObjects.UIMenuLink@7a97dfb2, com.truckTracking.common.dataObjects.UIMenuLink@60139ef5]
+
+16 ينا 2020 15:25:58,636 DEBUG MenuController 
+[DEBUG]currentMenuURL root
+
+16 ينا 2020 15:25:58,636 DEBUG MenuController 
+[DEBUG]currentMenuURL drivers.xhtml
+
+16 ينا 2020 15:25:58,636 DEBUG MenuController 
+[DEBUG]currentMenuURL=drivers.xhtml
+
+16 ينا 2020 15:25:58,636 DEBUG MenuController 
+[DEBUG]menuURL=drivers.xhtml
+
+16 ينا 2020 15:26:00,607 DEBUG MenuController 
+[DEBUG]selectItem
+
+16 ينا 2020 15:26:00,607 DEBUG MenuController 
+[DEBUG]selected menu /drivers.xhtml
+
+16 ينا 2020 15:26:00,607 DEBUG MenuController 
+[DEBUG]selected menu url drivers.xhtml
+
+16 ينا 2020 15:26:00,607 DEBUG MenuController 
+[DEBUG]openItem
+
+16 ينا 2020 15:26:00,607 DEBUG MenuController 
+[DEBUG]loop on all menus [com.truckTracking.common.dataObjects.UIMenuLink@7a97dfb2, com.truckTracking.common.dataObjects.UIMenuLink@60139ef5]
+
+16 ينا 2020 15:26:00,607 DEBUG MenuController 
+[DEBUG]currentMenuURL root
+
+16 ينا 2020 15:26:00,607 DEBUG MenuController 
+[DEBUG]currentMenuURL drivers.xhtml
+
+16 ينا 2020 15:26:00,607 DEBUG MenuController 
+[DEBUG]currentMenuURL=drivers.xhtml
+
+16 ينا 2020 15:26:00,607 DEBUG MenuController 
+[DEBUG]menuURL=drivers.xhtml
+
+16 ينا 2020 15:26:17,398 DEBUG MenuController 
+[DEBUG]selectItem
+
+16 ينا 2020 15:26:17,398 DEBUG MenuController 
+[DEBUG]selected menu /drivers.xhtml
+
+16 ينا 2020 15:26:17,398 DEBUG MenuController 
+[DEBUG]selected menu url drivers.xhtml
+
+16 ينا 2020 15:26:17,398 DEBUG MenuController 
+[DEBUG]openItem
+
+16 ينا 2020 15:26:17,398 DEBUG MenuController 
+[DEBUG]loop on all menus [com.truckTracking.common.dataObjects.UIMenuLink@7a97dfb2, com.truckTracking.common.dataObjects.UIMenuLink@60139ef5]
+
+16 ينا 2020 15:26:17,398 DEBUG MenuController 
+[DEBUG]currentMenuURL root
+
+16 ينا 2020 15:26:17,398 DEBUG MenuController 
+[DEBUG]currentMenuURL drivers.xhtml
+
+16 ينا 2020 15:26:17,398 DEBUG MenuController 
+[DEBUG]currentMenuURL=drivers.xhtml
+
+16 ينا 2020 15:26:17,399 DEBUG MenuController 
+[DEBUG]menuURL=drivers.xhtml
+

@@ -64,6 +64,7 @@ public class User implements Serializable {
 	private String lastName;
 	@Column(name = "user_name")
 	private String userName;
+	private String token;
 	@Basic(optional = false)
 	@Column(name = "create_date")
 	@Temporal(TemporalType.TIMESTAMP)
@@ -138,6 +139,14 @@ public class User implements Serializable {
 
 	public void setUserName(String userName) {
 		this.userName = userName;
+	}
+
+	public String getToken() {
+		return token;
+	}
+
+	public void setToken(String token) {
+		this.token = token;
 	}
 
 	public Date getCreateDate() {

@@ -1,16 +1,24 @@
 package com.truckTracking.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
 import com.truckTracking.model.entities.User;
 
-
 public interface SecurityService {
 
 	LoginData validateUserLogin(String submittedUsername, String submittedPassword, String checksumKey,
 			String submittedHashSum);
+
+	// mobile back end services
+	LoginData validateUserLoginMobile(String submittedUsername, String submittedPassword);
+
+	// use spring security features
+	LoginData login(String username, String password);
+
+	Optional<User> findUserByToken(String token);
 
 	List<User> getUserByUsername(String username);
 

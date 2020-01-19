@@ -13,6 +13,7 @@
   middle_name VARCHAR(45) NOT NULL,
   last_name VARCHAR(45) NOT NULL,
   user_name VARCHAR(45) DEFAULT NULL,
+  token VARCHAR(255) DEFAULT NULL,
   create_date DATETIME NOT NULL,
   update_date DATETIME NOT NULL,
   password_id INT NOT NULL,
