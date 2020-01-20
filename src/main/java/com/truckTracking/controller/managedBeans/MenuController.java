@@ -204,7 +204,6 @@ public class MenuController extends AbstractManagedBean {
 		logger.debug("selectItem");
 		Object object = event.getComponent().getAttributes().get(MENU_CONTROL_ATTRIBUTE_MENU_URL);
 		logger.debug("selected menu " + object);
-		System.out.println(object);
 		this.menuURL = String.valueOf(object);
 		this.menuURL = this.menuURL.substring(1);
 		logger.debug("selected menu url " + menuURL);

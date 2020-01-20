@@ -13,6 +13,7 @@ import javax.persistence.PersistenceContext;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.truckTracking.common.utils.Logger;
 import com.truckTracking.model.entities.Menu;
@@ -25,6 +26,7 @@ import com.truckTracking.service.MenuService;
  */
 
 @Service("menuService")
+@Transactional
 public class MenuServiceImpl implements MenuService {
 
 	private static final Logger logger = Logger.getLogger(MenuServiceImpl.class);

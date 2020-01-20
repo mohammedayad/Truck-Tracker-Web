@@ -17,6 +17,7 @@ import javax.persistence.Query;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.truckTracking.common.utils.Logger;
 import com.truckTracking.common.utils.TruckTrackingUtils;
@@ -25,6 +26,7 @@ import com.truckTracking.model.repository.UserRepository;
 import com.truckTracking.service.SecurityService;
 
 @Service("securityService")
+@Transactional
 public class SecurityServiceImpl implements SecurityService {
 
 	private static final Logger logger = Logger.getLogger(SecurityServiceImpl.class);

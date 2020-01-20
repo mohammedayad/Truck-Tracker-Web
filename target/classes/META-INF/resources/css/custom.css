@@ -488,3 +488,7 @@ input.ui-inputfield.hasDatepicker {
        background: #ff0000 !important;
         
  }
+ 
+div.ui-selectonemenu .ui-selectonemenu-trigger .ui-icon {
+    position: static;
+}

@@ -32,6 +32,8 @@
   end_car_meter_reader BIGINT(19) NULL,
   delivery_start_time DATETIME NOT NULL,
   delivery_end_time DATETIME NULL,
+  location_latitude VARCHAR(250) NULL,
+  location_longitude VARCHAR(250) NULL,
   PRIMARY KEY (delivery_id),
   CONSTRAINT user_delivery_details_FK
     FOREIGN KEY (user_id)

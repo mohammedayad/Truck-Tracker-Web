@@ -68,6 +68,10 @@ public class DeliveryDetails implements Serializable {
 	@Column(name = "delivery_end_time")
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date deliveryEndTime;
+	@Column(name = "location_latitude")
+	private String locationLatitude;
+	@Column(name = "location_longitude")
+	private String locationLongitude;
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "deliveryId")
 	private List<DeliveredPacket> deliveredPacketList;
 	@JoinColumn(name = "user_id", referencedColumnName = "user_id")
@@ -146,6 +150,22 @@ public class DeliveryDetails implements Serializable {
 		this.deliveryEndTime = deliveryEndTime;
 	}
 
+	public String getLocationLatitude() {
+		return locationLatitude;
+	}
+
+	public void setLocationLatitude(String locationLatitude) {
+		this.locationLatitude = locationLatitude;
+	}
+
+	public String getLocationLongitude() {
+		return locationLongitude;
+	}
+
+	public void setLocationLongitude(String locationLongitude) {
+		this.locationLongitude = locationLongitude;
+	}
+
 	@XmlTransient
 	public List<DeliveredPacket> getDeliveredPacketList() {
 		return deliveredPacketList;
@@ -170,23 +190,23 @@ public class DeliveryDetails implements Serializable {
 		return hash;
 	}
 
-	@Override
-	public boolean equals(Object object) {
-		// TODO: Warning - this method won't work in the case the id fields are not set
-		if (!(object instanceof DeliveryDetails)) {
-			return false;
-		}
-		DeliveryDetails other = (DeliveryDetails) object;
-		if ((this.deliveryId == null && other.deliveryId != null)
-				|| (this.deliveryId != null && !this.deliveryId.equals(other.deliveryId))) {
-			return false;
-		}
-		return true;
-	}
+//	@Override
+//	public boolean equals(Object object) {
+//		// TODO: Warning - this method won't work in the case the id fields are not set
+//		if (!(object instanceof DeliveryDetails)) {
+//			return false;
+//		}
+//		DeliveryDetails other = (DeliveryDetails) object;
+//		if ((this.deliveryId == null && other.deliveryId != null)
+//				|| (this.deliveryId != null && !this.deliveryId.equals(other.deliveryId))) {
+//			return false;
+//		}
+//		return true;
+//	}
 
-	@Override
-	public String toString() {
-		return "truckTracker.DeliveryDetails[ deliveryId=" + deliveryId + " ]";
-	}
+//	@Override
+//	public String toString() {
+//		return "truckTracker.DeliveryDetails[ deliveryId=" + deliveryId + " ]";
+//	}
 
 }

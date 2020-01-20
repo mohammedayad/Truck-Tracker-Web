@@ -9,14 +9,42 @@
 
 	<ui:define name="content">
 		<h:panelGroup id="allmessages">
-			<!--            <h5>
-                            <h:messages errorClass="alert-danger" infoClass="alert-success"
-                                        warnClass="alert-warning"></h:messages>
-                        </h5>-->
-			<f:facet name="header">
-                    Drivers
-            </f:facet>
+			<h5>
+				<h:messages errorClass="alert-danger" infoClass="alert-success"
+					warnClass="alert-warning"></h:messages>
+			</h5>
 		</h:panelGroup>
+		<h:form>
+
+			<p:panelGrid layout="grid" columns="4" styleClass="clearfix"
+				columnClasses="ui-grid-col-2, ui-grid-col-10">
+				<f:facet name="header">
+					    	Drivers
+				</f:facet>
+				<p:outputLabel value="Driver User Name:" />
+				<p:selectOneMenu value="#{driverBean.selectedDelivery}">
+					<f:selectItem itemLabel="Select Driver Name"
+						noSelectionOption="true" />
+					<f:selectItems value="#{driverBean.allDeliveryDetails}"
+						var="deliveryDetails" itemValue="#{deliveryDetails}"
+						itemLabel="#{deliveryDetails.userId.userName}"/>
+				</p:selectOneMenu>
+			</p:panelGrid>
+			<h:panelGroup layout="block" styleClass="btn-bar">
+				<p:commandButton value="Show"
+					action="#{driverBean.updateDeliveryMap()}" update="mapGrid" />
+			</h:panelGroup>
+		</h:form>
+		<p:panelGrid layout="grid" columns="1" styleClass="clearfix"
+			id="mapGrid">
+			<f:facet name="header">
+                    Driver Location
+                </f:facet>
+			<h:form>
+				<p:gmap center="#{driverBean.getSelectedDeliveryLocation()}" zoom="15" type="HYBRID"
+					style="width:100%;height:400px" />
+			</h:form>
+		</p:panelGrid>
 	</ui:define>
 
 </ui:composition>
