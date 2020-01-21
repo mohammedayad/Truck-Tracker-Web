@@ -190,19 +190,19 @@ public class DeliveryDetails implements Serializable {
 		return hash;
 	}
 
-//	@Override
-//	public boolean equals(Object object) {
-//		// TODO: Warning - this method won't work in the case the id fields are not set
-//		if (!(object instanceof DeliveryDetails)) {
-//			return false;
-//		}
-//		DeliveryDetails other = (DeliveryDetails) object;
-//		if ((this.deliveryId == null && other.deliveryId != null)
-//				|| (this.deliveryId != null && !this.deliveryId.equals(other.deliveryId))) {
-//			return false;
-//		}
-//		return true;
-//	}
+	@Override
+	public boolean equals(Object object) {
+		// TODO: Warning - this method won't work in the case the id fields are not set
+		if (!(object instanceof DeliveryDetails)) {
+			return false;
+		}
+		DeliveryDetails other = (DeliveryDetails) object;
+		if ((this.deliveryId == null && other.deliveryId != null)
+				|| (this.deliveryId != null && !this.deliveryId.equals(other.deliveryId))) {
+			return false;
+		}
+		return true;
+	}
 
 //	@Override
 //	public String toString() {

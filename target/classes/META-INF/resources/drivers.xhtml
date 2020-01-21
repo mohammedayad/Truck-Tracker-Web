@@ -22,7 +22,7 @@
 					    	Drivers
 				</f:facet>
 				<p:outputLabel value="Driver User Name:" />
-				<p:selectOneMenu value="#{driverBean.selectedDelivery}">
+				<p:selectOneMenu value="#{driverBean.selectedDelivery}" converter="#{driverBean}">
 					<f:selectItem itemLabel="Select Driver Name"
 						noSelectionOption="true" />
 					<f:selectItems value="#{driverBean.allDeliveryDetails}"
@@ -42,7 +42,7 @@
                 </f:facet>
 			<h:form>
 				<p:gmap center="#{driverBean.getSelectedDeliveryLocation()}" zoom="15" type="HYBRID"
-					style="width:100%;height:400px" />
+					style="width:100%;height:400px" model="#{driverBean.simpleModel}"/>
 			</h:form>
 		</p:panelGrid>
 	</ui:define>

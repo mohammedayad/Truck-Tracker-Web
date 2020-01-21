@@ -51,6 +51,39 @@ public class DeliveryDetailsServiceImpl implements DeliveryDetailsService {
 	}
 
 	@Override
+	public boolean updateDeliveryLocation(String userToken, DeliveryDetails deliveryDetails) {
+		logger.debug("<<<updateDeliveryLocation>>>");
+		logger.debug(deliveryDetails);
+		boolean isUpdated = false;
+		try {
+			Optional<User> user = securityService.findUserByToken(userToken);
+			if (user.isPresent()) {
+				logger.debug("user exist");
+				User userEntity = user.get();
+				int userId = userEntity.getId();
+				logger.debug("userId>>> " + userId);
+				Optional<DeliveryDetails> delivery = deliveryDetailsRepository.findByUserId(userEntity);
+				if (delivery.isPresent()) {
+					DeliveryDetails deliveryEntity = delivery.get();
+					deliveryEntity.setLocationLatitude(deliveryDetails.getLocationLatitude());
+					deliveryEntity.setLocationLongitude(deliveryDetails.getLocationLongitude());
+					deliveryDetailsRepository.save(deliveryEntity);
+					isUpdated = true;
+				}
+
+			} else {
+				logger.debug("user not exist");
+				return false;
+			}
+			return isUpdated;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return false;
+
+		}
+	}
+
+	@Override
 	public List<DeliveryDetails> getAllDeliveryDetails() {
 		logger.debug("<<<getAllDeliveryDetails>>>");
 		List<DeliveryDetails> allDeliveryDetails = deliveryDetailsRepository.findAll();
@@ -60,6 +93,23 @@ public class DeliveryDetailsServiceImpl implements DeliveryDetailsService {
 		}
 		logger.debug("<<<No DeliveryDetails exist>>>");
 		return Collections.emptyList();
+	}
+
+	@Override
+	public DeliveryDetails findDeliveryDetailsById(int DeliveryId) {
+		logger.debug("<<<findDeliveryDetailsById>>>");
+
+		Optional<DeliveryDetails> deliveryDetails = deliveryDetailsRepository.findById(DeliveryId);
+		DeliveryDetails deliveryEntity = null;
+		if (deliveryDetails.isPresent()) {
+			logger.debug("deliveryDetails exist");
+			deliveryEntity = deliveryDetails.get();
+
+		} else {
+			logger.debug("deliveryDetails not exist");
+		}
+		return deliveryEntity;
+
 	}
 
 }
